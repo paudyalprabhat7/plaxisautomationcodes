@@ -95,9 +95,18 @@ g_i.phase(g_i.InitialPhase)
 g_i.phase(g_i.Phase_1)
 
 #defining phase 1
+g_i.EmbeddedBeam_1_1.activate(g_i.Phase_1)
 
-
-
-
+#defining phase 2
+g_i.set(g_i.Phase_2.DeformCalcType, 'Dynamic')
+g_i.set(g_i.Phase_2.Deform.TimeIntervalSeconds, 0.5)
+g_i.set(g_i.Phase_2.Deform.ResetDisplacementsToZero, True)
+g_i.set(g_i.Phase_2.Deform.UseDefaultIterationParams, False)
+g_i.set(g_i.Phase_2.Deform.TimeStepDetermType, 'Manual')
+g_i.SurfaceDisplacement_1_1.activate(g_i.Phase_2)
+g_i.DynSurfaceDisplacement_1_1.activate(g_i.Phase_2)
+g_i.Dynamics.BoundaryXMin[g_i.Phase_5] = "None"
+g_i.Dynamics.BoundaryYMin[g_i.Phase_5] = "None"
+g_i.Dynamics.BoundaryZMin[g_i.Phase_5] = "Viscous"
 
 
