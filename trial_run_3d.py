@@ -1,5 +1,7 @@
 from plxscripting.easy import *
 import subprocess, time
+import pandas as pd
+
 
 #PLAXIS path
 PLAXIS_PATH = r'C:\Program Files\Bentley\Geotechnical\PLAXIS 3D CONNECT Edition V21\Plaxis3DInput.exe'
@@ -65,7 +67,7 @@ DisplacementMultiplier_1 = g_i.displmultiplier()
 
 g_i.Polygon_1.SurfaceDisplacement.SurfaceDisplacement.Multiplierz = DisplacementMultiplier_1
 
-g_i.DisplacementMultiplier_1.Amplitude = 0.025
+g_i.DisplacementMultiplier_1.Amplitude = 0.0025
 g_i.DisplacementMultiplier_1.Frequency = 10.0
 
 #create the geophone
@@ -105,8 +107,14 @@ g_i.set(g_i.Phase_2.Deform.UseDefaultIterationParams, False)
 g_i.set(g_i.Phase_2.Deform.TimeStepDetermType, 'Manual')
 g_i.SurfaceDisplacement_1_1.activate(g_i.Phase_2)
 g_i.DynSurfaceDisplacement_1_1.activate(g_i.Phase_2)
-g_i.Dynamics.BoundaryXMin[g_i.Phase_5] = "None"
-g_i.Dynamics.BoundaryYMin[g_i.Phase_5] = "None"
-g_i.Dynamics.BoundaryZMin[g_i.Phase_5] = "Viscous"
+g_i.Dynamics.BoundaryXMin[g_i.Phase_2] = "None"
+g_i.Dynamics.BoundaryYMin[g_i.Phase_2] = "None"
+g_i.Dynamics.BoundaryZMin[g_i.Phase_2] = "Viscous"
 
+#startcalculation
+g_i.calculate()
+
+#export calculation
+A = g_o.getsingleresult(g_o.Phase_2, g_o.ResultTypes.Soil.uz, (0,0,0))
+print(A)
 
