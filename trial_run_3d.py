@@ -2,7 +2,6 @@ from plxscripting.easy import *
 import subprocess, time
 import pandas as pd
 
-
 #PLAXIS path
 PLAXIS_PATH = r'C:\Program Files\Bentley\Geotechnical\PLAXIS 3D CONNECT Edition V21\Plaxis3DInput.exe'
 
@@ -47,27 +46,27 @@ g_i.setmaterial(g_i.Soillayer_1.Soil, g_i.Sand)
 g_i.gotostructures()
 
 #define a surface
-Polygon_1 = g_i.surface(0.5,0.5,0.0,-0.5,0.5,0.0,-0.5,-0.5,0.0,0.5,-0.5,0.0)
+Point_1 = g_i.surface(0.5,0.5,0.0,-0.5,0.5,0.0,-0.5,-0.5,0.0,0.5,-0.5,0.0)
 
-#createsurfacedisplacement
-g_i.surfdispl(Polygon_1)
+#createPointDisplacement
+g_i.surfdispl(Point_1)
 
 #fix x and y directions
-g_i.Polygon_1.SurfaceDisplacement.Displacement_x = 'fixed'
-g_i.Polygon_1.SurfaceDisplacement.Displacement_y = 'fixed'
+g_i.Point_1.PointDisplacement.Displacement_x = 'fixed'
+g_i.Point_1.PointDisplacement.Displacement_y = 'fixed'
 
 #prescribe z displacement
-g_i.Polygon_1.SurfaceDisplacement.Displacement_y = 'Prescribed'
+g_i.Point_1.PointDisplacement.Displacement_y = 'Prescribed'
 
 #static component
-g_i.Polygon_1.SurfaceDisplacement.uz = -1.0
+g_i.Point_1.PointDisplacement.uz = -1.0
 
 #dynamic component
 DisplacementMultiplier_1 = g_i.displmultiplier()
 
-g_i.Polygon_1.SurfaceDisplacement.SurfaceDisplacement.Multiplierz = DisplacementMultiplier_1
+g_i.Point_1.PointDisplacement.PointDisplacement.Multiplierz = DisplacementMultiplier_1
 
-g_i.DisplacementMultiplier_1.Amplitude = 0.0025
+g_i.DisplacementMultiplier_1.Amplitude = 0.00025
 g_i.DisplacementMultiplier_1.Frequency = 10.0
 
 #create the geophone
@@ -105,16 +104,18 @@ g_i.set(g_i.Phase_2.Deform.TimeIntervalSeconds, 0.5)
 g_i.set(g_i.Phase_2.Deform.ResetDisplacementsToZero, True)
 g_i.set(g_i.Phase_2.Deform.UseDefaultIterationParams, False)
 g_i.set(g_i.Phase_2.Deform.TimeStepDetermType, 'Manual')
-g_i.SurfaceDisplacement_1_1.activate(g_i.Phase_2)
-g_i.DynSurfaceDisplacement_1_1.activate(g_i.Phase_2)
+g_i.PointDisplacement_1_1.activate(g_i.Phase_2)
+g_i.DynPointDisplacement_1_1.activate(g_i.Phase_2)
 g_i.Dynamics.BoundaryXMin[g_i.Phase_2] = "None"
 g_i.Dynamics.BoundaryYMin[g_i.Phase_2] = "None"
 g_i.Dynamics.BoundaryZMin[g_i.Phase_2] = "Viscous"
 
 #startcalculation
 g_i.calculate()
+g_i.view(g_i.Phase_2)
 
 #export calculation
-A = g_o.getsingleresult(g_o.Phase_2, g_o.ResultTypes.Soil.uz, (0,0,0))
+A = g_o.getsingleresult(g_o.Phase_2, g_o.ResultTypes.Soil.Uz, (0,0,0))
 print(A)
+
 
