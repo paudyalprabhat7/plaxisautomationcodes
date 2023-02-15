@@ -1,6 +1,5 @@
 from plxscripting.easy import *
 import subprocess, time
-import pandas as pd
 
 #PLAXIS path
 PLAXIS_PATH = r'C:\Program Files\Bentley\Geotechnical\PLAXIS 3D CONNECT Edition V21\Plaxis3DInput.exe'
