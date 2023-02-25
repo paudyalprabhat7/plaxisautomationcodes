@@ -6,62 +6,62 @@ A Python script using PLAXIS 3D scripting interface to create a soil-structure m
 The following is the step-by-step detail of the code: 
 Import necessary modules: plxscripting.easy and subprocess. 
 
-Define the path to the PLAXIS application: PLAXIS_PATH. 
+			Define the path to the PLAXIS application: PLAXIS_PATH. 
 
-Define the port number for input and output connections: PORT_i and PORT_o. 
+			Define the port number for input and output connections: PORT_i and PORT_o. 
 
-Set the password for connecting to the application server: PASSWORD. 
+			Set the password for connecting to the application server: PASSWORD. 
 
-Open the PLAXIS application using the subprocess module with the Popen method, passing the application path and the input port, password as arguments. 
+			Open the PLAXIS application using the subprocess module with the Popen method, passing the application path and the input port, password as arguments. 
 
-Wait for the PLAXIS application to boot up by using time.sleep. 
+			Wait for the PLAXIS application to boot up by using time.sleep. 
 
-Create input and output servers for PLAXIS using the new_server method from the plxscripting.easy module, passing the server IP address, port, and password. 
+			Create input and output servers for PLAXIS using the new_server method from the plxscripting.easy module, passing the server IP address, port, and password. 
 
-Create a new PLAXIS project using the new method on the input server object. 
+			Create a new PLAXIS project using the new method on the input server object. 
 
-Create a rectangular soil contour using the initializerectangular method. 
+			Create a rectangular soil contour using the initializerectangular method. 
 
-Create a borehole using the borehole method, and a soil layer using the soillayer method. 
+			Create a borehole using the borehole method, and a soil layer using the soillayer method. 
 
-Create a sample material using the soilmat method with the specified material properties and values. 
+			Create a sample material using the soilmat method with the specified material properties and values. 
 
-Assign the material to the soil volume using the setmaterial method. 
+			Assign the material to the soil volume using the setmaterial method. 
 
-Switch to the structure mode using the gotostructures method. 
+			Switch to the structure mode using the gotostructures method. 
 
-Define a surface using the surface method, passing the coordinates of four points that define a square. 
+			Define a surface using the surface method, passing the coordinates of four points that define a square. 
 
-Create a point displacement at the surface using the surfdispl method. 
+			Create a point displacement at the surface using the surfdispl method. 
 
-Fix the x and y direction of the surface using the PointDisplacement.Displacement_x and PointDisplacement.Displacement_y attributes of the surface object. 
+			Fix the x and y direction of the surface using the PointDisplacement.Displacement_x and PointDisplacement.Displacement_y attributes of the surface object. 
 
-Prescribe the z-direction displacement using the PointDisplacement.uz attribute of the surface object. 
+			Prescribe the z-direction displacement using the PointDisplacement.uz attribute of the surface object. 
 
-Define a displacement multiplier using the displmultiplier method. 
+			Define a displacement multiplier using the displmultiplier method. 
 
-Set the amplitude and frequency of the displacement multiplier using the DisplacementMultiplier.Amplitude and DisplacementMultiplier.Frequency attributes of the displacement multiplier object. 
+			Set the amplitude and frequency of the displacement multiplier using the DisplacementMultiplier.Amplitude and DisplacementMultiplier.Frequency attributes of the displacement multiplier object. 
 
-Create a geophone using the embeddedbeam method, passing the coordinates of two points that define a line segment. 
+			Create a geophone using the embeddedbeam method, passing the coordinates of two points that define a line segment. 
 
-Create a geophone material using the embeddedbeammat method, specifying the material properties and values. 
+			Create a geophone material using the embeddedbeammat method, specifying the material properties and values. 
 
-Assign the geophone material to the geophone using the setmaterial method. 
+			Assign the geophone material to the geophone using the setmaterial method. 
 
-Switch to the mesh mode using the gotomesh method. 
+			Switch to the mesh mode using the gotomesh method. 
 
-Generate a mesh using the mesh method, specifying the coarseness, enhanced refinement, and swept meshing parameters. 
+			Generate a mesh using the mesh method, specifying the coarseness, enhanced refinement, and swept meshing parameters. 
 
-View the mesh using the viewmesh method. 
+			View the mesh using the viewmesh method. 
 
-Select mesh points using the selectmeshpoints method. 
+			Select mesh points using the selectmeshpoints method. 
 
-Add curve points for plotting using the addcurvepoint method on the output server object. 
+			Add curve points for plotting using the addcurvepoint method on the output server object. 
 
-Define initial phases using the gotostages and phase methods. 
+			Define initial phases using the gotostages and phase methods. 
 
-Define phase 1 by activating the geophone using the activate method. 
+			Define phase 1 by activating the geophone using the activate method. 
 
-Define phase 2 by setting various parameters, such as deform calculation type, time interval, iteration parameters, and boundary conditions. Then activate the point displacement and dynamic point displacement objects. 
+			Define phase 2 by setting various parameters, such as deform calculation type, time interval, iteration parameters, and boundary conditions. Then activate the point displacement and dynamic point displacement objects. 
 
-Run the simulation using the calculate method. 
+			Run the simulation using the calculate method. 
