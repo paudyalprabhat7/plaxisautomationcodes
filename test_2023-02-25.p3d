@@ -51,3 +51,6 @@ set Dynamics.BoundaryXMin Phase_3 "None"
 set Dynamics.BoundaryYMin Phase_3 "None"
 set Dynamics.BoundaryZMin Phase_3 "Viscous"
 calculate
+save "D:\Plaxis Automation Codes\test_2023-02-25"
+view InitialPhase
+view InitialPhase

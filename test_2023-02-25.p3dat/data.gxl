@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GraphList>
+  <Graph>
+    <Version>21.1.0.479</Version>
+    <Settings>
+      <XLin>true</XLin>
+      <YLin>true</YLin>
+      <XAutoScale>true</XAutoScale>
+      <YAutoScale>true</YAutoScale>
+      <XMin>0</XMin>
+      <XMax>50</XMax>
+      <YMin>0</YMin>
+      <YMax>0</YMax>
+      <HorGrid>true</HorGrid>
+      <VerGrid>true</VerGrid>
+      <Orthonormal>false</Orthonormal>
+      <Exchange>false</Exchange>
+      <XFlip>false</XFlip>
+      <YFlip>false</YFlip>
+      <GridStyle>2</GridStyle>
+      <GridCol>0</GridCol>
+      <NumCurves>1</NumCurves>
+      <XAxis>0</XAxis>
+      <YAxis>0</YAxis>
+      <SpecType>0</SpecType>
+      <Is3D>false</Is3D>
+      <ActiveCurve>1</ActiveCurve>
+      <LegendWidth>0</LegendWidth>
+      <ChartNo>0</ChartNo>
+      <GeneralInfoFlags.Model>0</GeneralInfoFlags.Model>
+      <GeneralInfoFlags.Elements>0</GeneralInfoFlags.Elements>
+      <GeneralInfoFlags.XAccel>0</GeneralInfoFlags.XAccel>
+      <GeneralInfoFlags.YAccel>0</GeneralInfoFlags.YAccel>
+      <GeneralInfoFlags.DynLoadSystem>0</GeneralInfoFlags.DynLoadSystem>
+      <GeneralInfoFlags.unLength>0</GeneralInfoFlags.unLength>
+      <GeneralInfoFlags.unForce>0</GeneralInfoFlags.unForce>
+      <GeneralInfoFlags.unTime>0</GeneralInfoFlags.unTime>
+      <ChartTitle>Chart 1</ChartTitle>
+      <XLabel>Dynamic time [s]</XLabel>
+      <YLabel>u_z# [mm]</YLabel>
+      <XUnit/>
+      <YUnit/>
+      <GeneralInfoStrings.User/>
+      <GeneralInfoStrings.Company/>
+      <GeneralInfoStrings.Title/>
+      <GeneralInfoStrings.Comments/>
+      <GeneralInfoStrings.UnitL/>
+      <GeneralInfoStrings.UnitF/>
+      <GeneralInfoStrings.UnitT/>
+      <GeneralInfoStrings.UnitTemp/>
+      <GeneralInfoStrings.UnitMass/>
+      <GeneralInfoStrings.UnitEnergy/>
+      <GeneralInfoStrings.UnitPower/>
+      <ShowLegend>true</ShowLegend>
+      <ShowLegendInChart>false</ShowLegendInChart>
+      <LegendPosX>0</LegendPosX>
+      <LegendPosY>0</LegendPosY>
+      <PSAEndTime>10</PSAEndTime>
+      <GraphType>0</GraphType>
+      <IsAriasCurveInPercentage>false</IsAriasCurveInPercentage>
+    </Settings>
+    <Curves>
+      <Curve>
+        <Settings>
+          <CurveNo>1</CurveNo>
+          <NumSteps>205</NumSteps>
+          <InvX>false</InvX>
+          <InvY>false</InvY>
+          <Visible>true</Visible>
+          <AutoSpectrum>true</AutoSpectrum>
+          <PtsPerSeg>0</PtsPerSeg>
+          <FreqStep>-1</FreqStep>
+          <NumActiveSteps>205</NumActiveSteps>
+          <ProjectPath/>
+          <CurveTitle>Node 9 *</CurveTitle>
+          <Zeta>.05</Zeta>
+          <IsMinimaShown>true</IsMinimaShown>
+          <IsMaximaShown>true</IsMaximaShown>
+          <SpectrumTimeAxis>0</SpectrumTimeAxis>
+        </Settings>
+        <Phases>
+          <Phase>
+            <PhaseNr>0</PhaseNr>
+            <ParentPhaseNr>-1</ParentPhaseNr>
+            <PhaseTimeStepInSeconds>0</PhaseTimeStepInSeconds>
+            <Enabled>false</Enabled>
+            <IsDyn>false</IsDyn>
+            <Name>Initial phase [InitialPhase]</Name>
+          </Phase>
+          <Phase>
+            <PhaseNr>1</PhaseNr>
+            <ParentPhaseNr>0</ParentPhaseNr>
+            <PhaseTimeStepInSeconds>0</PhaseTimeStepInSeconds>
+            <Enabled>false</Enabled>
+            <IsDyn>false</IsDyn>
+            <Name>Phase_1 [Phase_1]</Name>
+          </Phase>
+          <Phase>
+            <PhaseNr>2</PhaseNr>
+            <ParentPhaseNr>1</ParentPhaseNr>
+            <PhaseTimeStepInSeconds>5E-3</PhaseTimeStepInSeconds>
+            <Enabled>true</Enabled>
+            <IsDyn>true</IsDyn>
+            <Name>Phase_2 [Phase_2]</Name>
+          </Phase>
+          <Phase>
+            <PhaseNr>3</PhaseNr>
+            <ParentPhaseNr>2</ParentPhaseNr>
+            <PhaseTimeStepInSeconds>5E-3</PhaseTimeStepInSeconds>
+            <Enabled>true</Enabled>
+            <IsDyn>true</IsDyn>
+            <Name>Phase_3 [Phase_3]</Name>
+          </Phase>
+        </Phases>
+        <DataPoints>
+          <Point Prev="0" Phase="0" Step="0" X="0"/>
+          <Point Prev="1" Phase="1" Step="1" X="0" Y="0"/>
+          <Point Prev="1" Phase="1" Step="1" X="0" Y="-4.75609E-15"/>
+          <Point Prev="2" Phase="1" Step="2" X="0" Y="-9.56227E-15"/>
+          <Point Prev="3" Phase="2" Step="3" X="0" Y="0"/>
+          <Point Prev="4" Phase="2" Step="3" X="5E-3" Y="-7.72542"/>
+          <Point Prev="5" Phase="2" Step="4" X=".01" Y="-14.6946"/>
+          <Point Prev="6" Phase="2" Step="5" X=".015" Y="-20.2254"/>
+          <Point Prev="7" Phase="2" Step="6" X=".02" Y="-23.7764"/>
+          <Point Prev="8" Phase="2" Step="7" X=".025" Y="-25"/>
+          <Point Prev="9" Phase="2" Step="8" X=".03" Y="-23.7764"/>
+          <Point Prev="10" Phase="2" Step="9" X=".035" Y="-20.2254"/>
+          <Point Prev="11" Phase="2" Step="10" X=".04" Y="-14.6946"/>
+          <Point Prev="12" Phase="2" Step="11" X=".045" Y="-7.72542"/>
+          <Point Prev="13" Phase="2" Step="12" X=".05" Y="0"/>
+          <Point Prev="14" Phase="2" Step="13" X=".055" Y="7.72542"/>
+          <Point Prev="15" Phase="2" Step="14" X=".06" Y="14.6946"/>
+          <Point Prev="16" Phase="2" Step="15" X=".065" Y="20.2254"/>
+          <Point Prev="17" Phase="2" Step="16" X=".07" Y="23.7764"/>
+          <Point Prev="18" Phase="2" Step="17" X=".075" Y="25"/>
+          <Point Prev="19" Phase="2" Step="18" X=".08" Y="23.7764"/>
+          <Point Prev="20" Phase="2" Step="19" X=".085" Y="20.2254"/>
+          <Point Prev="21" Phase="2" Step="20" X=".09" Y="14.6946"/>
+          <Point Prev="22" Phase="2" Step="21" X=".095" Y="7.72542"/>
+          <Point Prev="23" Phase="2" Step="22" X=".1" Y="0"/>
+          <Point Prev="24" Phase="2" Step="23" X=".105" Y="-7.72542"/>
+          <Point Prev="25" Phase="2" Step="24" X=".11" Y="-14.6946"/>
+          <Point Prev="26" Phase="2" Step="25" X=".115" Y="-20.2254"/>
+          <Point Prev="27" Phase="2" Step="26" X=".12" Y="-23.7764"/>
+          <Point Prev="28" Phase="2" Step="27" X=".125" Y="-25"/>
+          <Point Prev="29" Phase="2" Step="28" X=".13" Y="-23.7764"/>
+          <Point Prev="30" Phase="2" Step="29" X=".135" Y="-20.2254"/>
+          <Point Prev="31" Phase="2" Step="30" X=".14" Y="-14.6946"/>
+          <Point Prev="32" Phase="2" Step="31" X=".145" Y="-7.72542"/>
+          <Point Prev="33" Phase="2" Step="32" X=".15" Y="0"/>
+          <Point Prev="34" Phase="2" Step="33" X=".155" Y="7.72542"/>
+          <Point Prev="35" Phase="2" Step="34" X=".16" Y="14.6946"/>
+          <Point Prev="36" Phase="2" Step="35" X=".165" Y="20.2254"/>
+          <Point Prev="37" Phase="2" Step="36" X=".17" Y="23.7764"/>
+          <Point Prev="38" Phase="2" Step="37" X=".175" Y="25"/>
+          <Point Prev="39" Phase="2" Step="38" X=".18" Y="23.7764"/>
+          <Point Prev="40" Phase="2" Step="39" X=".185" Y="20.2254"/>
+          <Point Prev="41" Phase="2" Step="40" X=".19" Y="14.6946"/>
+          <Point Prev="42" Phase="2" Step="41" X=".195" Y="7.72542"/>
+          <Point Prev="43" Phase="2" Step="42" X=".2" Y="0"/>
+          <Point Prev="44" Phase="2" Step="43" X=".205" Y="-7.72542"/>
+          <Point Prev="45" Phase="2" Step="44" X=".21" Y="-14.6946"/>
+          <Point Prev="46" Phase="2" Step="45" X=".215" Y="-20.2254"/>
+          <Point Prev="47" Phase="2" Step="46" X=".22" Y="-23.7764"/>
+          <Point Prev="48" Phase="2" Step="47" X=".225" Y="-25"/>
+          <Point Prev="49" Phase="2" Step="48" X=".23" Y="-23.7764"/>
+          <Point Prev="50" Phase="2" Step="49" X=".235" Y="-20.2254"/>
+          <Point Prev="51" Phase="2" Step="50" X=".24" Y="-14.6946"/>
+          <Point Prev="52" Phase="2" Step="51" X=".245" Y="-7.72542"/>
+          <Point Prev="53" Phase="2" Step="52" X=".25" Y="0"/>
+          <Point Prev="54" Phase="2" Step="53" X=".255" Y="7.72542"/>
+          <Point Prev="55" Phase="2" Step="54" X=".26" Y="14.6946"/>
+          <Point Prev="56" Phase="2" Step="55" X=".265" Y="20.2254"/>
+          <Point Prev="57" Phase="2" Step="56" X=".27" Y="23.7764"/>
+          <Point Prev="58" Phase="2" Step="57" X=".275" Y="25"/>
+          <Point Prev="59" Phase="2" Step="58" X=".28" Y="23.7764"/>
+          <Point Prev="60" Phase="2" Step="59" X=".285" Y="20.2254"/>
+          <Point Prev="61" Phase="2" Step="60" X=".29" Y="14.6946"/>
+          <Point Prev="62" Phase="2" Step="61" X=".295" Y="7.72542"/>
+          <Point Prev="63" Phase="2" Step="62" X=".3" Y="0"/>
+          <Point Prev="64" Phase="2" Step="63" X=".305" Y="-7.72542"/>
+          <Point Prev="65" Phase="2" Step="64" X=".31" Y="-14.6946"/>
+          <Point Prev="66" Phase="2" Step="65" X=".315" Y="-20.2254"/>
+          <Point Prev="67" Phase="2" Step="66" X=".32" Y="-23.7764"/>
+          <Point Prev="68" Phase="2" Step="67" X=".325" Y="-25"/>
+          <Point Prev="69" Phase="2" Step="68" X=".33" Y="-23.7764"/>
+          <Point Prev="70" Phase="2" Step="69" X=".335" Y="-20.2254"/>
+          <Point Prev="71" Phase="2" Step="70" X=".34" Y="-14.6946"/>
+          <Point Prev="72" Phase="2" Step="71" X=".345" Y="-7.72542"/>
+          <Point Prev="73" Phase="2" Step="72" X=".35" Y="0"/>
+          <Point Prev="74" Phase="2" Step="73" X=".355" Y="7.72542"/>
+          <Point Prev="75" Phase="2" Step="74" X=".36" Y="14.6946"/>
+          <Point Prev="76" Phase="2" Step="75" X=".365" Y="20.2254"/>
+          <Point Prev="77" Phase="2" Step="76" X=".37" Y="23.7764"/>
+          <Point Prev="78" Phase="2" Step="77" X=".375" Y="25"/>
+          <Point Prev="79" Phase="2" Step="78" X=".38" Y="23.7764"/>
+          <Point Prev="80" Phase="2" Step="79" X=".385" Y="20.2254"/>
+          <Point Prev="81" Phase="2" Step="80" X=".39" Y="14.6946"/>
+          <Point Prev="82" Phase="2" Step="81" X=".395" Y="7.72542"/>
+          <Point Prev="83" Phase="2" Step="82" X=".4" Y="0"/>
+          <Point Prev="84" Phase="2" Step="83" X=".405" Y="-7.72542"/>
+          <Point Prev="85" Phase="2" Step="84" X=".41" Y="-14.6946"/>
+          <Point Prev="86" Phase="2" Step="85" X=".415" Y="-20.2254"/>
+          <Point Prev="87" Phase="2" Step="86" X=".42" Y="-23.7764"/>
+          <Point Prev="88" Phase="2" Step="87" X=".425" Y="-25"/>
+          <Point Prev="89" Phase="2" Step="88" X=".43" Y="-23.7764"/>
+          <Point Prev="90" Phase="2" Step="89" X=".435" Y="-20.2254"/>
+          <Point Prev="91" Phase="2" Step="90" X=".44" Y="-14.6946"/>
+          <Point Prev="92" Phase="2" Step="91" X=".445" Y="-7.72542"/>
+          <Point Prev="93" Phase="2" Step="92" X=".45" Y="0"/>
+          <Point Prev="94" Phase="2" Step="93" X=".455" Y="7.72542"/>
+          <Point Prev="95" Phase="2" Step="94" X=".46" Y="14.6946"/>
+          <Point Prev="96" Phase="2" Step="95" X=".465" Y="20.2254"/>
+          <Point Prev="97" Phase="2" Step="96" X=".47" Y="23.7764"/>
+          <Point Prev="98" Phase="2" Step="97" X=".475" Y="25"/>
+          <Point Prev="99" Phase="2" Step="98" X=".48" Y="23.7764"/>
+          <Point Prev="100" Phase="2" Step="99" X=".485" Y="20.2254"/>
+          <Point Prev="101" Phase="2" Step="100" X=".49" Y="14.6946"/>
+          <Point Prev="102" Phase="2" Step="101" X=".495" Y="7.72542"/>
+          <Point Prev="103" Phase="2" Step="102" X=".5" Y="0"/>
+          <Point Prev="104" Phase="3" Step="103" X=".505" Y="-7.72542"/>
+          <Point Prev="105" Phase="3" Step="104" X=".51" Y="-14.6946"/>
+          <Point Prev="106" Phase="3" Step="105" X=".515" Y="-20.2254"/>
+          <Point Prev="107" Phase="3" Step="106" X=".52" Y="-23.7764"/>
+          <Point Prev="108" Phase="3" Step="107" X=".525" Y="-25"/>
+          <Point Prev="109" Phase="3" Step="108" X=".53" Y="-23.7764"/>
+          <Point Prev="110" Phase="3" Step="109" X=".535" Y="-20.2254"/>
+          <Point Prev="111" Phase="3" Step="110" X=".54" Y="-14.6946"/>
+          <Point Prev="112" Phase="3" Step="111" X=".545" Y="-7.72542"/>
+          <Point Prev="113" Phase="3" Step="112" X=".55" Y="0"/>
+          <Point Prev="114" Phase="3" Step="113" X=".555" Y="7.72542"/>
+          <Point Prev="115" Phase="3" Step="114" X=".56" Y="14.6946"/>
+          <Point Prev="116" Phase="3" Step="115" X=".565" Y="20.2254"/>
+          <Point Prev="117" Phase="3" Step="116" X=".57" Y="23.7764"/>
+          <Point Prev="118" Phase="3" Step="117" X=".575" Y="25"/>
+          <Point Prev="119" Phase="3" Step="118" X=".58" Y="23.7764"/>
+          <Point Prev="120" Phase="3" Step="119" X=".585" Y="20.2254"/>
+          <Point Prev="121" Phase="3" Step="120" X=".59" Y="14.6946"/>
+          <Point Prev="122" Phase="3" Step="121" X=".595" Y="7.72542"/>
+          <Point Prev="123" Phase="3" Step="122" X=".6" Y="0"/>
+          <Point Prev="124" Phase="3" Step="123" X=".605" Y="-7.72542"/>
+          <Point Prev="125" Phase="3" Step="124" X=".61" Y="-14.6946"/>
+          <Point Prev="126" Phase="3" Step="125" X=".615" Y="-20.2254"/>
+          <Point Prev="127" Phase="3" Step="126" X=".62" Y="-23.7764"/>
+          <Point Prev="128" Phase="3" Step="127" X=".625" Y="-25"/>
+          <Point Prev="129" Phase="3" Step="128" X=".63" Y="-23.7764"/>
+          <Point Prev="130" Phase="3" Step="129" X=".635" Y="-20.2254"/>
+          <Point Prev="131" Phase="3" Step="130" X=".64" Y="-14.6946"/>
+          <Point Prev="132" Phase="3" Step="131" X=".645" Y="-7.72542"/>
+          <Point Prev="133" Phase="3" Step="132" X=".65" Y="0"/>
+          <Point Prev="134" Phase="3" Step="133" X=".655" Y="7.72542"/>
+          <Point Prev="135" Phase="3" Step="134" X=".66" Y="14.6946"/>
+          <Point Prev="136" Phase="3" Step="135" X=".665" Y="20.2254"/>
+          <Point Prev="137" Phase="3" Step="136" X=".67" Y="23.7764"/>
+          <Point Prev="138" Phase="3" Step="137" X=".675" Y="25"/>
+          <Point Prev="139" Phase="3" Step="138" X=".68" Y="23.7764"/>
+          <Point Prev="140" Phase="3" Step="139" X=".685" Y="20.2254"/>
+          <Point Prev="141" Phase="3" Step="140" X=".69" Y="14.6946"/>
+          <Point Prev="142" Phase="3" Step="141" X=".695" Y="7.72542"/>
+          <Point Prev="143" Phase="3" Step="142" X=".7" Y="0"/>
+          <Point Prev="144" Phase="3" Step="143" X=".705" Y="-7.72542"/>
+          <Point Prev="145" Phase="3" Step="144" X=".71" Y="-14.6946"/>
+          <Point Prev="146" Phase="3" Step="145" X=".715" Y="-20.2254"/>
+          <Point Prev="147" Phase="3" Step="146" X=".72" Y="-23.7764"/>
+          <Point Prev="148" Phase="3" Step="147" X=".725" Y="-25"/>
+          <Point Prev="149" Phase="3" Step="148" X=".73" Y="-23.7764"/>
+          <Point Prev="150" Phase="3" Step="149" X=".735" Y="-20.2254"/>
+          <Point Prev="151" Phase="3" Step="150" X=".74" Y="-14.6946"/>
+          <Point Prev="152" Phase="3" Step="151" X=".745" Y="-7.72542"/>
+          <Point Prev="153" Phase="3" Step="152" X=".75" Y="0"/>
+          <Point Prev="154" Phase="3" Step="153" X=".755" Y="7.72542"/>
+          <Point Prev="155" Phase="3" Step="154" X=".76" Y="14.6946"/>
+          <Point Prev="156" Phase="3" Step="155" X=".765" Y="20.2254"/>
+          <Point Prev="157" Phase="3" Step="156" X=".77" Y="23.7764"/>
+          <Point Prev="158" Phase="3" Step="157" X=".775" Y="25"/>
+          <Point Prev="159" Phase="3" Step="158" X=".78" Y="23.7764"/>
+          <Point Prev="160" Phase="3" Step="159" X=".785" Y="20.2254"/>
+          <Point Prev="161" Phase="3" Step="160" X=".79" Y="14.6946"/>
+          <Point Prev="162" Phase="3" Step="161" X=".795" Y="7.72542"/>
+          <Point Prev="163" Phase="3" Step="162" X=".8" Y="0"/>
+          <Point Prev="164" Phase="3" Step="163" X=".805" Y="-7.72542"/>
+          <Point Prev="165" Phase="3" Step="164" X=".81" Y="-14.6946"/>
+          <Point Prev="166" Phase="3" Step="165" X=".815" Y="-20.2254"/>
+          <Point Prev="167" Phase="3" Step="166" X=".82" Y="-23.7764"/>
+          <Point Prev="168" Phase="3" Step="167" X=".825" Y="-25"/>
+          <Point Prev="169" Phase="3" Step="168" X=".83" Y="-23.7764"/>
+          <Point Prev="170" Phase="3" Step="169" X=".835" Y="-20.2254"/>
+          <Point Prev="171" Phase="3" Step="170" X=".84" Y="-14.6946"/>
+          <Point Prev="172" Phase="3" Step="171" X=".845" Y="-7.72542"/>
+          <Point Prev="173" Phase="3" Step="172" X=".85" Y="0"/>
+          <Point Prev="174" Phase="3" Step="173" X=".855" Y="7.72542"/>
+          <Point Prev="175" Phase="3" Step="174" X=".86" Y="14.6946"/>
+          <Point Prev="176" Phase="3" Step="175" X=".865" Y="20.2254"/>
+          <Point Prev="177" Phase="3" Step="176" X=".87" Y="23.7764"/>
+          <Point Prev="178" Phase="3" Step="177" X=".875" Y="25"/>
+          <Point Prev="179" Phase="3" Step="178" X=".88" Y="23.7764"/>
+          <Point Prev="180" Phase="3" Step="179" X=".885" Y="20.2254"/>
+          <Point Prev="181" Phase="3" Step="180" X=".89" Y="14.6946"/>
+          <Point Prev="182" Phase="3" Step="181" X=".895" Y="7.72542"/>
+          <Point Prev="183" Phase="3" Step="182" X=".9" Y="0"/>
+          <Point Prev="184" Phase="3" Step="183" X=".905" Y="-7.72542"/>
+          <Point Prev="185" Phase="3" Step="184" X=".91" Y="-14.6946"/>
+          <Point Prev="186" Phase="3" Step="185" X=".915" Y="-20.2254"/>
+          <Point Prev="187" Phase="3" Step="186" X=".92" Y="-23.7764"/>
+          <Point Prev="188" Phase="3" Step="187" X=".925" Y="-25"/>
+          <Point Prev="189" Phase="3" Step="188" X=".93" Y="-23.7764"/>
+          <Point Prev="190" Phase="3" Step="189" X=".935" Y="-20.2254"/>
+          <Point Prev="191" Phase="3" Step="190" X=".94" Y="-14.6946"/>
+          <Point Prev="192" Phase="3" Step="191" X=".945" Y="-7.72542"/>
+          <Point Prev="193" Phase="3" Step="192" X=".95" Y="0"/>
+          <Point Prev="194" Phase="3" Step="193" X=".955" Y="7.72542"/>
+          <Point Prev="195" Phase="3" Step="194" X=".96" Y="14.6946"/>
+          <Point Prev="196" Phase="3" Step="195" X=".965" Y="20.2254"/>
+          <Point Prev="197" Phase="3" Step="196" X=".97" Y="23.7764"/>
+          <Point Prev="198" Phase="3" Step="197" X=".975" Y="25"/>
+          <Point Prev="199" Phase="3" Step="198" X=".98" Y="23.7764"/>
+          <Point Prev="200" Phase="3" Step="199" X=".985" Y="20.2254"/>
+          <Point Prev="201" Phase="3" Step="200" X=".99" Y="14.6946"/>
+          <Point Prev="202" Phase="3" Step="201" X=".995" Y="7.72542"/>
+          <Point Prev="203" Phase="3" Step="202" X="1" Y="0"/>
+        </DataPoints>
+        <PointX>
+          <ContourType>200</ContourType>
+          <ProjectDataType>3</ProjectDataType>
+          <StateParam>0</StateParam>
+        </PointX>
+        <PointY>
+          <NodeStressPointNode>
+            <NodeID>9</NodeID>
+            <StructureType>0</StructureType>
+            <StructureNr>0</StructureNr>
+          </NodeStressPointNode>
+          <ContourType>6</ContourType>
+          <ProjectDataType>0</ProjectDataType>
+          <StateParam>0</StateParam>
+        </PointY>
+        <PointZ>
+          <ContourType>0</ContourType>
+          <ProjectDataType>0</ProjectDataType>
+          <StateParam>0</StateParam>
+        </PointZ>
+        <TimeStep>5E-3</TimeStep>
+        <Smoothing>false</Smoothing>
+        <SmoothingSize>0</SmoothingSize>
+        <DataOrigin>0</DataOrigin>
+        <DisplayOptions>
+          <Fitting>0</Fitting>
+          <LineStyle>0</LineStyle>
+          <LineColor>16711680</LineColor>
+          <LineWidth>1</LineWidth>
+          <Markers>true</Markers>
+          <MarkStartOfPhase>false</MarkStartOfPhase>
+          <MarkerStyle>1</MarkerStyle>
+          <MarkerWidth>5</MarkerWidth>
+          <MarkerColor>16711680</MarkerColor>
+          <Interval>1</Interval>
+        </DisplayOptions>
+      </Curve>
+    </Curves>
+    <Data/>
+  </Graph>
+</GraphList>
