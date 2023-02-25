@@ -1,0 +1,172 @@
+{
+ "uid": "{ABB69C7A-681E-48F7-A6C9-C8359D670B4D}",
+ "ref": "2",
+ "description": "Model",
+ "objects": [
+  {
+   "uid": "{94A2FEA2-80EF-4EA6-A7F2-B2F53419EED2}",
+   "description": "Geometry",
+   "objects": [
+    {
+     "uid": "{68B5B9BE-46D1-4A3B-8F91-1B299FD7C7C9}",
+     "description": "Points",
+     "objects": [
+      {
+       "uid": "{AFA38B2C-8C1A-40F3-9A60-D8184A8B7BBF}",
+       "description": "Point_1",
+       "objects": [
+        {
+         "uid": "{9AE283BD-91CF-49AE-8E36-5CD1890926AC}",
+         "description": "Point_1_1",
+         "objects": [
+          {
+           "uid": "{D77A0572-B025-4F63-8847-2EF3EE1E5FF2}",
+           "ref": "1",
+           "description": "PointDisplacement_1_1",
+           "objects": [],
+           "type": "PointDisplacement",
+           "caption": "PointDisplacement_1_1"
+          }],
+         "caption": "Point_1_1"
+        }],
+       "caption": "Point_1"
+      },{
+       "uid": "{C83B897C-E524-4E04-833E-AA9925E9F531}",
+       "description": "Point_2",
+       "objects": [
+        {
+         "uid": "{3D387A7B-C58A-489F-BB79-FA19C67549E0}",
+         "description": "Point_2_1",
+         "objects": [],
+         "caption": "Point_2_1"
+        }],
+       "caption": "Point_2"
+      },{
+       "uid": "{6A9E3B2A-300D-428C-9AB9-FAC1F171F3B2}",
+       "description": "Point_3",
+       "objects": [
+        {
+         "uid": "{2D23A56A-8B42-4E79-87A0-CF58222D996C}",
+         "description": "Point_3_1",
+         "objects": [],
+         "caption": "Point_3_1"
+        }],
+       "caption": "Point_3"
+      }],
+     "caption": "Points"
+    },{
+     "uid": "{B6F1B331-4FC9-4CA8-BDCC-3BA5805E5778}",
+     "description": "Lines",
+     "objects": [
+      {
+       "uid": "{310051EF-DACA-4E73-8383-7118660BB4E6}",
+       "description": "Line_1",
+       "objects": [
+        {
+         "uid": "{8CADF598-9AFF-4DD2-903B-A44DFAEF127A}",
+         "description": "Line_1_1",
+         "objects": [
+          {
+           "uid": "{5E97FC43-8F77-47C2-9533-78D341525EFF}",
+           "ref": "1",
+           "description": "EmbeddedBeam_1_1",
+           "objects": [],
+           "type": "EmbeddedBeam",
+           "caption": "EmbeddedBeam_1_1"
+          }],
+         "caption": "Line_1_1"
+        }],
+       "caption": "Line_1"
+      }],
+     "caption": "Lines"
+    },{
+     "uid": "{13C1AD7F-1022-4BC9-8457-11FF263C9C75}",
+     "description": "SoilVolumes",
+     "objects": [
+      {
+       "uid": "{D24DD4EB-78F9-49B0-B774-D04B51140500}",
+       "description": "BoreholeVolume_1",
+       "objects": [
+        {
+         "uid": "{91AD5DFA-1C71-481A-8A75-70FE906EAB8C}",
+         "description": "BoreholeVolume_1_1",
+         "objects": [
+          {
+           "uid": "{87B2FE43-A1A2-4F15-A18B-201108670577}",
+           "ref": "1",
+           "description": "Soil_1_1",
+           "objects": [],
+           "type": "Soil",
+           "caption": "Soil_1_1"
+          }],
+         "caption": "BoreholeVolume_1_1"
+        }],
+       "caption": "BoreholeVolume_1"
+      }],
+     "caption": "Soil volumes"
+    }],
+   "caption": "Geometry"
+  },{
+   "uid": "{1C678CDA-897E-4AC2-B665-C03FDD7B4016}",
+   "description": "BoreholeWaterLevels",
+   "objects": [
+    {
+     "uid": "{12C94E03-3E6D-4B4F-A069-00C066E4C765}",
+     "description": "BoreholeWaterLevel_1",
+     "objects": [
+      {
+       "ref": "{87B2FE43-A1A2-4F15-A18B-201108670577}",
+       "objects": []
+      }],
+     "caption": "BoreholeWaterLevel_1"
+    }],
+   "caption": "Borehole water levels"
+  },{
+   "uid": "{C95BEDC0-7030-43F2-928B-EB618F240192}",
+   "description": "PointDisplacements",
+   "objects": [
+    {
+     "uid": "{394A0134-FDAC-4D5C-8DCC-D7B0241C7D4A}",
+     "description": "PointDisplacement_1",
+     "objects": [
+      {
+       "ref": "{D77A0572-B025-4F63-8847-2EF3EE1E5FF2}",
+       "objects": []
+      }],
+     "caption": "PointDisplacement_1"
+    }],
+   "caption": "Point displacements"
+  },{
+   "uid": "{C47029C8-DF1C-4BBC-A2BB-23986BF2174A}",
+   "description": "EmbeddedBeams",
+   "objects": [
+    {
+     "uid": "{C6315D93-CC51-47E1-9B8E-FD0E79378225}",
+     "description": "EmbeddedBeam_1",
+     "objects": [
+      {
+       "ref": "{5E97FC43-8F77-47C2-9533-78D341525EFF}",
+       "objects": []
+      }],
+     "caption": "EmbeddedBeam_1"
+    }],
+   "caption": "Embedded beams"
+  },{
+   "uid": "{3227708A-A3C8-4E72-AE3A-D16C72237E41}",
+   "description": "Soils",
+   "objects": [
+    {
+     "uid": "{9DDDD7DF-F46B-4B11-BB6F-D8DC1D729FD8}",
+     "description": "Soil_1",
+     "objects": [
+      {
+       "ref": "{87B2FE43-A1A2-4F15-A18B-201108670577}",
+       "objects": []
+      }],
+     "caption": "Soil_1"
+    }],
+   "caption": "Soils"
+  }],
+ "type": "Phase",
+ "caption": "Model"
+}

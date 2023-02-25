@@ -1,0 +1,1756 @@
+ DATE 2023-02-25 TIME 13:41:23.892
+ BLD: Mar 09 2021 17:51:20
+ Now: 2023/2/25 at 13:41:23
+ if64 1900
+ Ref: *
+ Win: 1.6.2.9200
+ Mem: 1 12163 (4806) MB (free) physical memory
+ Process ID, MemMB : 13292 6
+ EXE: 
+ C:\Program Files\Bentley\Geotechnical\PLAXIS 3D CONNECT Edition V21\kernel\
+ BLD: Mar 09 2021 17:55:32
+ CWD: D:\Plaxis Automation Codes 831.5 (637.2) GB (free)
+ WRK: C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\ 118.6 (48.3) GB (free)
+ Trim(fName):C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.log
+ CL iHand           27
+ plswhile
+ iHand0  :          27
+ iHand   :           7
+ iCoupled:           0
+ iGWFCal :           0
+ nDof    :           3
+ NewArgs : T
+ p_DLL_CE 0:        140717722370048       140717722374336
+ p_DLL_CE 1:        140717722370048       140717722374672
+ nArgs:           4
+ Vers : 21.01.00.479
+ Lic  : 3167
+ timms        1644
+ io =           12
+ $$PROLAYSI##           4
+ $$PROLAYSR##        1600
+ $$PROLAYDI##           4
+ $$DBASEIDI##           4
+ $$SOILXIDT##          46
+ $$SOILXVLR##         400
+ $$SOILXVLI##          40
+ $$HTUWCT_R##           0
+ $$SOILNAMB##           5
+ $$SOILNAMT##          12
+ $$DLLNAMEB##           0
+ $$SMODNAMB##           0
+ $$PROLAYNB##           0
+ $$PROLAYUB##           0
+ $$DLLNAMET##           4
+ $$SMODNAMT##           4
+ $$PROLAYNT##           4
+ $$PROLAYUT##           4
+ $$BEAMNAMB##           0
+ $$BEAMNAMT##           4
+ $$MINDLINR##           0
+ $$GEOTNAMB##           0
+ $$GEOTNAMT##           4
+ $$GEOTEXTR##           0
+ $$ANCHNAMB##           0
+ $$ANCHNAMT##           4
+ $$ANCHORSR##           0
+ $$ANCHTYPB##           0
+ $$FSANCHPI##           8
+ $$ANCHXIDT##           4
+ $$ANCHXVLR##           0
+ $$FSSUP1NB##           0
+ $$FSSUP1NT##           4
+ $$FSSUP1PI##           8
+ $$FSSUP1PR##           0
+ $$FSPLATNB##           0
+ $$FSPLATNT##           4
+ $$FSPLATPI##           8
+ $$FSPLATPR##           0
+ $$PLATXIDT##           4
+ $$PLATXVLR##           0
+ $$GEOTXIDT##           4
+ $$GEOTXVLR##           0
+ $$FSBEAMNB##           0
+ $$FSBEAMNT##           4
+ $$FSBEAMPI##           8
+ $$FSBEAMPR##           0
+ $$BEAMXIDT##           4
+ $$BEAMXVLR##           0
+ $$FSEPILNB##           9
+ $$FSEPILNT##          16
+ $$FSEPILPI##          36
+ $$FSEPILPR##         176
+ $$FSEPXIDT##          46
+ $$FSEPXVLR##         400
+ $$GUIDS__T##          88
+ GUID           1  {941D0E23-715D-45F4-8ADB-F909BFFF440A}
+ GUID           2  {EE6CDBB7-B373-4668-B34C-8A308CE12AA6}
+ $$NAMES__T##          24
+ Name           1  Sand
+ Name           2  Geophone
+  nSoilSet :            1
+  nGeoSet  :            0
+  nNNAnch  :            0
+  nFEAnch  :            0
+  nPlateSet:            0
+  nBeamSet :            0
+  nEPilSet :            1
+ Guid           1  {941D0E23-715D-45F4-8ADB-F909BFFF440A}           1
+           1 Sand
+ Guid           2  {EE6CDBB7-B373-4668-B34C-8A308CE12AA6}           9
+           1 Geophone
+ $$COMMENTT##          12
+ $$COLOURSI##           8
+ $$GRAVTDII##           4
+ $$MATINDXT##          88
+ $$UNITS__T##          45
+ $$METADATT##          12
+ $$_APPINFT##         241
+ $$ENDOFFII##           0
+ NProDi, nBeamSet=          50           1
+ Size of iFsBeamPI=           9
+ NProDi, nPlatSet=          20           1
+ NProAn, nAnchSet=           5           1
+  IN RDMAT:C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.m01
+ Unread block [MAT] : $$DBASEIDI##           4
+ Read_SOILXIDT
+ SoilIdxT           1           1
+ nLayer:           1
+ Read_SoilXVLR           1          50
+ Unread block [MAT] : $$SOILXVLI##          40
+ Unread block [MAT] : $$HTUWCT_R##           0
+ Unread block [MAT] : $$SOILNAMB##           5
+    1 Sand
+ Unread block [MAT] : $$SOILNAMT##          12
+ Unread block [MAT] : $$SMODNAMB##           0
+ Unread block [MAT] : $$PROLAYNB##           0
+ Unread block [MAT] : $$PROLAYUB##           0
+ Unread block [MAT] : $$DLLNAMET##           4
+ Unread block [MAT] : $$SMODNAMT##           4
+ Unread block [MAT] : $$PROLAYNT##           4
+ Unread block [MAT] : $$PROLAYUT##           4
+ Unread block [MAT] : $$BEAMNAMB##           0
+ Unread block [MAT] : $$BEAMNAMT##           4
+ Unread block [MAT] : $$GEOTNAMB##           0
+ Unread block [MAT] : $$GEOTNAMT##           4
+ Unread block [MAT] : $$ANCHNAMB##           0
+ Unread block [MAT] : $$ANCHNAMT##           4
+ Unread block [MAT] : $$ANCHTYPB##           0
+ Unread block [MAT] : $$FSANCHPI##           8
+ Read_ANCHXIDT
+ Unread block [MAT] : $$FSSUP1NB##           0
+ Unread block [MAT] : $$FSSUP1NT##           4
+ Unread block [MAT] : $$FSPLATNB##           0
+ Unread block [MAT] : $$FSPLATNT##           4
+ Read_PLATXIDT
+ Unread block [MAT] : $$FSBEAMNB##           0
+ Unread block [MAT] : $$FSBEAMNT##           4
+ Read_BEAMXIDT
+ Unread block [MAT] : $$FSEPILNB##           9
+    1 Geophone
+ Unread block [MAT] : $$FSEPILNT##          16
+ RdMatW: FSEpilPI
+           1          15
+           2           3
+           3           0
+           4           0
+           5           0
+           6           2
+           7           1
+ RdMatW: FSEpilPR
+ AIzz,AIyy:   39760.7820219958        39760.7820219958     
+ Nonlinear diagram i NLPR0           1           0
+ Table           7           0           8           0           9           0
+ iSkinType,nMultiLinPts           1           2
+ iSet:           1
+ multi-linear table found but not multi-linear type           1           2
+           1  DEPTH-TRAMX  0.000000000000000E+000  0.000000000000000E+000
+           2  DEPTH-TRAMX   1.00000000000000        1.00000000000000     
+ Read_FsEPXIDT
+ FsEPIdxT           1           2
+ Read_FsEPXVLR
+ Unread block [MAT] : $$GUIDS__T##          88
+ Unread block [MAT] : $$NAMES__T##          24
+ Unread block [MAT] : $$COMMENTT##          12
+ Unread block [MAT] : $$COLOURSI##           8
+ Unread block [MAT] : $$MATINDXT##          88
+ nUnits:           7
+ Unit L: mm
+ Unit F: kN
+ Unit T: day
+ OneAtm :  9.999999999999999E-005  [F/L2]
+ OnekNpm:  1.000000000000000E-003  [F/L]
+ OnekN  :   1.00000000000000       [F]
+ Unread block [MAT] : $$METADATT##          12
+ Unread block [MAT] : $$_APPINFT##         241
+ After RdMatW
+ apply_FSEPXVLR
+ PropSoil:
+ 
+Set                  1
+MTypeL             152
+   1       1.92308E-02
+   2       3.00000E-01
+   3       4.69472E-01
+   4       5.00000E-06
+   9       2.00000E-08
+  10       2.00000E-08
+  13       6.67000E-01
+  20       3.33333E-01
+  22       9.99000E-01
+  25       3.11000E+00
+  26       7.95770E-04
+  27       1.00000E+15
+  28       4.95000E-01
+  91       6.67000E-01
+  99       1.00000E+00
+ 101       5.30528E-01
+ 102       5.30528E-01
+ 103       1.00000E+00
+ 105       2.00000E+00
+ 106      -1.06000E+03
+ 107      -2.37000E+03
+ 110       1.00000E+07
+ 111       1.00000E+00
+ 112       6.20347E-02
+ 113       3.83000E-03
+ 114       1.37740E+00
+ 115       1.25000E+00
+ 117       1.00000E+00
+ 191       1.00000E+01
+ 192       1.30000E+01
+ 193       7.70000E+01
+ $$GENERALI##          16
+ Unread block [INP a] : $$GENERALR##          16
+ $$COUNTERI##          28
+ Unread block [INP a] : $$GRAVTDII##           4
+ $$GRAVITYR##           8
+ Unread block [INP a] : $$FSINTFAR##           0
+ Unread block [INP a] : $$_APPINFT##         241
+ $$SOILBHSI##           8
+ BKName ,nByts $$SOILBHSI##           8
+ Skipping            8  bytes
+ $$SOILBHPR##          16
+ BKName ,nByts $$SOILBHPR##          16
+ Skipping           16  bytes
+ $$SOILBHLR##          16
+ BKName ,nByts $$SOILBHLR##          16
+ Skipping           16  bytes
+ $$NODECOOR##      294408
+ BKName ,nByts $$NODECOOR##      294408
+ NodTotZMS:       12267
+ Skipping       294408  bytes
+ $$FSCLUSTI##       30448
+ BKName ,nByts $$FSCLUSTI##       30448
+ nClustFNS:           1
+ Skipping            0  bytes
+ $$CLUSTELI##           4
+ BKName ,nByts $$CLUSTELI##           4
+ Skipping            4  bytes
+ $$FSSOILCI##      304440
+ BKName ,nByts $$FSSOILCI##      304440
+ Skipping       304440  bytes
+ $$FSPLATCI##           0
+ $$LOCALCPR##           0
+ $$GEOGRDCI##           0
+ $$LOCALCGR##           0
+ $$FSDLOACI##           0
+ $$DRAINSCI##           0
+ $$CONTRACI##           0
+ $$LOCALCCR##           0
+ $$WESMASSI##           0
+ $$SNEIGH_I##           0
+ $$FSLOA1CI##           0
+ $$FSSUP1CI##           0
+ $$FSANCHCI##           0
+ $$FSBEAMCI##           0
+ $$LOCAXPNR##           0
+ $$FSLOA3CI##           0
+ $$DRAINLCI##           0
+ $$FSEPILCI##          28
+ BKName ,nByts $$FSEPILCI##          28
+ nPile     :            1
+ nPileElem :            1
+       1       1   12265   12267   12266     284
+ $$LOCALCER##          72
+ BKName ,nByts $$LOCALCER##          72
+ Skipping           72  bytes
+ $$WELLSCOI##           0
+ $$FSINTFAI##           0
+ $$FSINTFNI##           0
+ $$LOCALCIR##           0
+ $$_APPINFT##         241
+ BKName ,nByts $$_APPINFT##         241
+ Skipping          241  bytes
+ $$ENDOFFII##           0
+ Anchors : j1,j2:            1           1
+ IsBatch :  F
+ fGUlt=    1.00000000000000     
+ Set_Picos_nThreadsPref           4
+ iSolver
+       2      4   -999   -999   -999    -999   -999   -999   -999   -999
+ PICOS: nCPU:           4
+ call mkl_set_Num_Threads           4
+ mkl_set_Num_Threads done
+ isolver
+       2      4      4   -999   -999    -999      3   -999      4      4
+ iHand from SF5           7
+ FacKwNew:  1.000000000000000E-008
+ after SF5, ppLimit, pptco:  1.000000000000000E+030  0.000000000000000E+000
+ Control file : 
+ C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.l01
+ $$PHASNAMT##          57
+ Current phase:Phase_1
+ $$CONSBN3R##          48
+ Skipping Lxx          48  bytes
+ $$FSSOILSI##       30444
+ Skipping Lxx       30444  bytes
+ $$FSPLATSI##           0
+ $$GEOGRDSI##           0
+ $$FSDLOADR##           0
+ $$DYDLOADR##           0
+ $$FSLOAD3R##           0
+ $$DYLOAD3R##           0
+ $$MVLOAD3I##           0
+ $$MVLOAD3R##           0
+ $$PTHLOADI##           0
+ $$PTHLINER##           0
+ $$VELLOADI##           0
+ $$VELLINER##           0
+ $$VELHARMR##           0
+ $$VELTABLR##           0
+ $$FSBEAMSI##           0
+ $$FSEPILSI##           4
+ Skipping Lxx           4  bytes
+ $$PILCONNI##           8
+ Skipping Lxx           8  bytes
+ $$FSLOAD1R##           0
+ $$DYLOAD1R##           0
+ $$MVLOAD1I##           0
+ $$MVLOAD1R##           0
+ $$FSSUP1SI##           0
+ $$PRSTRFER##           0
+ $$SPRIDIRR##           0
+ $$FIXANCHR##           0
+ $$FSANCHSI##           0
+ $$PRSTRNNR##           0
+ $$DISPLA2R##      109632
+ Skipping Lxx      109632  bytes
+ $$DYDISP2R##           0
+ $$RIGBODCR##           0
+ $$RIGBODNI##           0
+ $$RIGBODMI##           0
+ $$RIGENTSI##           0
+ $$FSINTFSI##           0
+ $$FSVOLCLI##           0
+ $$FSVOLCLR##           0
+ $$CONTRAAI##           0
+ $$CONTRAVR##           0
+ $$DYMULLII##          40
+ Skipping Lxx          40  bytes
+ $$DYMULHAR##          32
+ Skipping Lxx          32  bytes
+ $$DYMULTAR##           0
+ $$BCDYNMCI##          24
+ Skipping Lxx          24  bytes
+ $$BCDYNMCR##          96
+ Skipping Lxx          96  bytes
+ $$BCDYNFXI##          12
+ Skipping Lxx          12  bytes
+ $$BCFIELDR##          96
+ Skipping Lxx          96  bytes
+ $$BCFIELDI##           4
+ Skipping Lxx           4  bytes
+ $$SLPRECOR##          24
+ Skipping Lxx          24  bytes
+ $$SLPRECAI##           0
+ $$_APPINFT##         241
+ Skipping Lxx         241  bytes
+ $$ENDOFFII##           0
+ End Of RdLxx
+ iValD           2
+ iValF           0
+ iValT          -1
+ Opened file C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\data.convd.rr1
+ nStep :         1000
+ fTUlt :   0.000000000000000E+000
+ iWxxFile :            1
+ iLxxFile :            1
+ iPhase   :            1
+ Tolerance for stop criterion error1=  1.000000000000000E-002
+ NFIRST=            1
+ NNN   =            0
+ Using default settings for iterative solver
+ Parameters iterative solver:
+ itsolv(           1 )=         180
+ itsolv(           2 )=      150000
+ itsolv(           3 )=          20
+ itsolv(           4 )=         600
+ itsolv(           5 )=         500
+ itsolv(          11 )=          40
+ itsolv(          12 )=          55
+ itsolv(          13 )=          20
+ itsolv(          20 )=          50
+ itsolv(          21 )=         300
+ itsolv(          22 )=       20000
+ itsolv(          25 )=           2
+ itsolv(          26 )=          15
+ itsolv(          27 )=          15
+ itsolv(          28 )=         500
+ itsolv(          29 )=        1000
+ itsolv(          41 )=         160
+ itsolv(          42 )=         400
+ itsolv(          43 )=         800
+ Ritsolv(           1 )=  0.100000000000000     
+ Ritsolv(           2 )=  2.000000000000000E-005
+ Ritsolv(           3 )=   2.00000000000000     
+ Ritsolv(           4 )=   1.20000000000000     
+ Ritsolv(           5 )=  1.000000000000000E-006
+ Ritsolv(           6 )=  2.000000000000000E-005
+ Ritsolv(           7 )=   3.00000000000000     
+ Ritsolv(           8 )=  1.000000000000000E-003
+ Ritsolv(           9 )=  1.000000000000000E-010
+ Ritsolv(          10 )=   1.40000000000000     
+ Ritsolv(          11 )=  0.480000100000000     
+ Ritsolv(          15 )=  0.100000000000000     
+ Ritsolv(          16 )=  5.999999999999999E-004
+ Ritsolv(          21 )=  1.000000000000000E-004
+ Modyn:           0
+ before openform
+ initialize showmode 23
+ Batstr   : [<Phase 1>]           9
+ after openform
+LRiks :      4
+ nodtot=        12267
+ nint1 =            4
+ nin   =        30444
+ nel   =         7611
+ nintel=            0
+ nodtot=        12267
+idim,nodtot,n,ndof,ndofbm:          3      12267      36810          3          0
+ RdGW_dum (C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.w01
+ RDGW_dum:$$PHASNAMT##          57
+ Skipping block           57
+ RDGW_dum:$$FSWPRESR##      608880
+ Skipping block       608880
+ RDGW_dum:$$CLUSDRYI##           4
+ Skipping block            4
+ RDGW_dum:$$FSEWPRCI##       48872
+ nLoadW6/8:        2036           0
+ RDGW_dum:$$FSEWPRSR##      293184
+ Skipping block       293184
+ RDGW_dum:$$GWFBC__I##           0
+ Skipping block            0
+ RDGW_dum:$$GWFBCRVR##           0
+ Skipping block            0
+ RDGW_dum:$$GWFBCHDR##           0
+ Skipping block            0
+ RDGW_dum:$$GWFFUNCI##           0
+ Skipping block            0
+ RDGW_dum:$$FFUNCHAR##           0
+ Skipping block            0
+ RDGW_dum:$$FFUNCTAR##           0
+ Skipping block            0
+ RDGW_dum:$$FFUNCLIR##           0
+ Skipping block            0
+ RDGW_dum:$$WELLSPRR##           0
+ Skipping block            0
+ RDGW_dum:$$DRAINLAI##           0
+ Skipping block            0
+ RDGW_dum:$$DRAINLHR##           0
+ Skipping block            0
+ RDGW_dum:$$DRAINSAI##           0
+ Skipping block            0
+ RDGW_dum:$$DRAINSHR##           0
+ Skipping block            0
+ RDGW_dum:$$BCGFLOWI##          24
+ Skipping block           24
+ RDGW_dum:$$INTPERMI##           0
+ Skipping block            0
+ RDGW_dum:$$BCPRECII##          12
+ Skipping block           12
+ RDGW_dum:$$BCPRECIR##          24
+ Skipping block           24
+ RDGW_dum:$$WLGEOM_I##           4
+ Skipping block            4
+ RDGW_dum:$$WLGEOM_R##         144
+ Skipping block          144
+ RDGW_dum:$$WLTIME_I##          12
+ Skipping block           12
+ RDGW_dum:$$SOILWL_I##          12
+ Skipping block           12
+ RDGW_dum:$$UDWPRESR##           0
+ Skipping block            0
+ RDGW_dum:$$WESMASSR##           0
+ Skipping block            0
+ RDGW_dum:$$SLPRECOR##          24
+ Skipping block           24
+ RDGW_dum:$$SLPRECAI##           0
+ Skipping block            0
+ RDGW_dum:$$_APPINFT##         478
+ Skipping block          478
+idim,nodtot,n,ndof,ndofbm:          3      12267      36810          3          0
+nel :       7611          0
+ NintGP =            0
+ $$GENERALI##          16
+ $$GENERALR##          16
+ $$COUNTERI##          28
+ $$GRAVTDII##           4
+ $$FSINTFAR##           0
+ Control file : 
+ C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.l01 
+           0
+ $$PHASNAMT##          57
+ Skipping Lxx          57  bytes
+ $$CONSBN3R##          48
+ xMinCBC, xMaxCBC   -2500.00000010000        2500.00000010000     
+ yMinCBC, yMaxCBC   -2500.00000010000        2500.00000010000     
+ zMinCBC, zMaxCBC   -10000000000.0000       1.000002273736754E-007
+ $$FSSOILSI##       30444
+ Skipping Lxx       30444  bytes
+ $$FSPLATSI##           0
+ $$GEOGRDSI##           0
+ $$FSDLOADR##           0
+ $$DYDLOADR##           0
+ $$FSLOAD3R##           0
+ $$DYLOAD3R##           0
+ $$MVLOAD3I##           0
+ $$MVLOAD3R##           0
+ $$PTHLOADI##           0
+ $$PTHLINER##           0
+ $$VELLOADI##           0
+ $$VELLINER##           0
+ $$VELHARMR##           0
+ $$VELTABLR##           0
+ $$FSBEAMSI##           0
+ $$FSEPILSI##           4
+ $$PILCONNI##           8
+ $$FSLOAD1R##           0
+ $$DYLOAD1R##           0
+ $$MVLOAD1I##           0
+ $$MVLOAD1R##           0
+ $$FSSUP1SI##           0
+ $$PRSTRFER##           0
+ $$SPRIDIRR##           0
+ $$FIXANCHR##           0
+ $$FSANCHSI##           0
+ $$PRSTRNNR##           0
+ $$DISPLA2R##      109632
+ Skipping Lxx      109632  bytes
+ $$DYDISP2R##           0
+ $$RIGBODCR##           0
+ $$RIGBODNI##           0
+ $$RIGBODMI##           0
+ $$RIGENTSI##           0
+ $$FSINTFSI##           0
+ $$FSVOLCLI##           0
+ $$FSVOLCLR##           0
+ $$CONTRAAI##           0
+ $$CONTRAVR##           0
+ $$DYMULLII##          40
+ Skipping Lxx          40  bytes
+ $$DYMULHAR##          32
+ Skipping Lxx          32  bytes
+ $$DYMULTAR##           0
+ $$BCDYNMCI##          24
+ $$BCDYNMCR##          96
+ $$BCDYNFXI##          12
+ $$BCFIELDR##          96
+ Skipping Lxx          96  bytes
+ $$BCFIELDI##           4
+ Skipping Lxx           4  bytes
+ $$SLPRECOR##          24
+ Skipping Lxx          24  bytes
+ $$SLPRECAI##           0
+ $$_APPINFT##         241
+ Skipping Lxx         241  bytes
+ $$ENDOFFII##           0
+ End Of RdLxx
+ Control file : 
+ C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.l01 
+           1
+ $$PHASNAMT##          57
+ Skipping Lxx          57  bytes
+ $$CONSBN3R##          48
+ xMinCBC, xMaxCBC   -2500.00000010000        2500.00000010000     
+ yMinCBC, yMaxCBC   -2500.00000010000        2500.00000010000     
+ zMinCBC, zMaxCBC   -10000000000.0000       1.000002273736754E-007
+ $$FSSOILSI##       30444
+ $$FSPLATSI##           0
+ $$GEOGRDSI##           0
+ $$FSDLOADR##           0
+ $$DYDLOADR##           0
+ $$FSLOAD3R##           0
+ $$DYLOAD3R##           0
+ $$MVLOAD3I##           0
+ $$MVLOAD3R##           0
+ $$PTHLOADI##           0
+ $$PTHLINER##           0
+ $$VELLOADI##           0
+ $$VELLINER##           0
+ $$VELHARMR##           0
+ $$VELTABLR##           0
+ $$FSBEAMSI##           0
+ $$FSEPILSI##           4
+ $$PILCONNI##           8
+ $$FSLOAD1R##           0
+ $$DYLOAD1R##           0
+ $$MVLOAD1I##           0
+ $$MVLOAD1R##           0
+ $$FSSUP1SI##           0
+ $$PRSTRFER##           0
+ $$SPRIDIRR##           0
+ $$FIXANCHR##           0
+ $$FSANCHSI##           0
+ $$PRSTRNNR##           0
+ $$DISPLA2R##      109632
+ Nodtot,nNod :        12267        3426
+ $$DYDISP2R##           0
+ $$RIGBODCR##           0
+ $$RIGBODNI##           0
+ $$RIGBODMI##           0
+ $$RIGENTSI##           0
+ $$FSINTFSI##           0
+ $$FSVOLCLI##           0
+ $$FSVOLCLR##           0
+ $$CONTRAAI##           0
+ $$CONTRAVR##           0
+ $$DYMULLII##          40
+ Skipping Lxx          40  bytes
+ $$DYMULHAR##          32
+ Skipping Lxx          32  bytes
+ $$DYMULTAR##           0
+ $$BCDYNMCI##          24
+ $$BCDYNMCR##          96
+ $$BCDYNFXI##          12
+ $$BCFIELDR##          96
+ Skipping Lxx          96  bytes
+ $$BCFIELDI##           4
+ Skipping Lxx           4  bytes
+ $$SLPRECOR##          24
+ Skipping Lxx          24  bytes
+ $$SLPRECAI##           0
+ $$_APPINFT##         241
+ Skipping Lxx         241  bytes
+ $$ENDOFFII##           0
+ End Of RdLxx
+ BKNAME,NBYTS:$$PHASNAMT##          63
+ BKNAME,NBYTS:$$INTEGERI##          40
+ BKNAME,NBYTS:$$FSSOILSI##       30444
+ BKNAME,NBYTS:$$PROLAYSI##           4
+ BKNAME,NBYTS:$$PROLAYSR##        1600
+ BKNAME,NBYTS:$$FSEPILSI##           4
+ BKNAME,NBYTS:$$LXXFILEI##           4
+ BKNAME,NBYTS:$$SITGWNSI##           4
+ BKNAME,NBYTS:$$MULTIPNR##         208
+ BKNAME,NBYTS:$$SIG_XX0R##      243552
+ BKNAME,NBYTS:$$SIG_YY0R##      243552
+ BKNAME,NBYTS:$$SIG_ZZ0R##      243552
+ BKNAME,NBYTS:$$SIG1MAXR##      243552
+ BKNAME,NBYTS:$$E__C___R##      487104
+ BKNAME,NBYTS:$$PPTCOPCR##           8
+ BKNAME,NBYTS:$$WPINIT_R##      243552
+ BKNAME,NBYTS:$$WPNDIN_R##       98136
+ BKNAME,NBYTS:$$FSEWPRCI##       48872
+ BKNAME,NBYTS:$$FSEWPRSR##      293184
+ BKNAME,NBYTS:$$SIG_WP0R##           0
+ BKNAME,NBYTS:$$FSEPINTR##           0
+ BKNAME,NBYTS:$$DSATURAR##      243552
+ BKNAME,NBYTS:$$SATEFFER##      243552
+ BKNAME,NBYTS:$$IGNRSUCI##           4
+ BKNAME,NBYTS:$$CALCTIMR##          32
+ BKNAME,NBYTS:$$CALCTIMT##          78
+ BKNAME,NBYTS:$$_APPINFT##         715
+ BKNAME,NBYTS:$$ENDOFFII##           0
+ After closing file (000sw)
+ NelBm :            0
+ In RDZMS, mshnm=
+ C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.zms
+ $$SOILBHSI##           8
+ Unread block $$SOILBHSI##
+ Skipping            8  bytes
+ $$SOILBHPR##          16
+ Unread block $$SOILBHPR##
+ Skipping           16  bytes
+ $$SOILBHLR##          16
+ Unread block $$SOILBHLR##
+ Skipping           16  bytes
+ $$NODECOOR##      294408
+ $$NODECOOR##      294408
+ NodTot3:       12267
+ nVals/3:       12267
+ $$FSCLUSTI##       30448
+ $$FSCLUSTI##       30448
+ Skipping        30448  bytes
+ $$CLUSTELI##           4
+ $$CLUSTELI##           4
+           1           1        7611
+ $$FSSOILCI##      304440
+ $$FSSOILCI##      304440
+ $$FSPLATCI##           0
+ $$FSPLATCI##           0
+ $$LOCALCPR##           0
+ $$LOCALCPR##           0
+ $$GEOGRDCI##           0
+ $$GEOGRDCI##           0
+ $$LOCALCGR##           0
+ $$LOCALCGR##           0
+ $$FSDLOACI##           0
+ $$FSDLOACI##           0
+ $$DRAINSCI##           0
+ $$DRAINSCI##           0
+ $$CONTRACI##           0
+ $$CONTRACI##           0
+ $$LOCALCCR##           0
+ $$LOCALCCR##           0
+ $$WESMASSI##           0
+ $$WESMASSI##           0
+ $$SNEIGH_I##           0
+ Skipping            0  bytes
+ $$FSLOA1CI##           0
+ $$FSLOA1CI##           0
+ $$FSSUP1CI##           0
+ $$FSSUP1CI##           0
+ $$FSANCHCI##           0
+ $$FSANCHCI##           0
+ $$FSBEAMCI##           0
+ $$FSBEAMCI##           0
+ $$LOCAXPNR##           0
+ $$LOCAXPNR##           0
+ $$FSLOA3CI##           0
+ $$FSLOA3CI##           0
+ $$DRAINLCI##           0
+ $$DRAINLCI##           0
+ $$FSEPILCI##          28
+ $$FSEPILCI##          28
+ Skipping           28  bytes
+ $$LOCALCER##          72
+ $$LOCALCER##          72
+ nLocalDirBeam0 :            0
+ nLocalDirBeam  :            1
+ $$WELLSCOI##           0
+ $$WELLSCOI##           0
+ $$FSINTFAI##           0
+ $$FSINTFAI##           0
+ $$FSINTFNI##           0
+ $$FSINTFNI##           0
+ $$LOCALCIR##           0
+ $$LOCALCIR##           0
+ $$_APPINFT##         241
+ Unread block $$_APPINFT##
+ Skipping          241  bytes
+ $$ENDOFFII##           0
+ Check_Plate_Det          10          -1
+ put_pdu_onpile           1
+ Fill_Neigh           0
+ iconv
+     1    2    4    5    9    8
+     1    3    2    7    6    5
+     1    4    3    8   10    7
+     2    3    4    6   10    9
+ iconvi
+     2    4    6    8   10   12
+     1    5    3   11    9    7
+     0    0    0    0    0    0
+     0    0    0    0    0    0
+ Fill_IH
+ iconvi
+     2    4    6    8   10   12
+     1    5    3   11    9    7
+     0    0    0    0    0    0
+     0    0    0    0    0    0
+ MaxSame :           16  nUnique:       11828  of        30444 and            0
+ Nel     :        7611
+ nVisible:        2036  planes
+ Total time :            9
+ Total CPU  :   1.562500000000000E-002
+ Allocated  :       121776  0.464538574218750       Mb
+ Neigh           0           9  total        2036  outside tris
+ Nel      :  7611
+ nClust   :     1
+ nFEAnch  :     0
+ nBeamCh  :     0
+ nNNAnch  :     0
+ nEPilCh  :     1
+ nPlate   :     0
+ nPlateCh :     0
+ nGeotCh  :     0
+ nInterCh :     0
+ nIntel   :     0
+ nPileElm :     1
+ xyzibar:           0           6
+ nFixed:        4963
+ nel :         7611   nint1 :            4  nin:       30444
+ Fixed rotations : 
+ Fixed rotations:            0  nodes of            3           0
+ nPDUChange:           0
+ fexist C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.w01
+ WpIGiI :            0
+ in rdwxx_
+ rdwxx_ (C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.w01)
+ rdwxx_:$$PHASNAMT##          57   F           0
+ skipping block in rdwxx_
+ rdwxx_:$$FSWPRESR##      608880   F           0
+ rdwxx_:$$CLUSDRYI##           4   F           2
+ rdwxx_:$$FSEWPRCI##       48872   F           2
+ rdwxx_:$$FSEWPRSR##      293184   F           2
+ rdwxx_:$$GWFBC__I##           0   F           3
+ rdwxx_:$$GWFBCRVR##           0   F           3
+ rdwxx_:$$GWFBCHDR##           0   F           3
+ rdwxx_:$$GWFFUNCI##           0   F           3
+ rdwxx_:$$FFUNCHAR##           0   F           3
+ rdwxx_:$$FFUNCTAR##           0   F           3
+ rdwxx_:$$FFUNCLIR##           0   F           3
+ rdwxx_:$$WELLSPRR##           0   F           3
+ rdwxx_:$$DRAINLAI##           0   F           3
+ rdwxx_:$$DRAINLHR##           0   F           3
+ rdwxx_:$$DRAINSAI##           0   F           3
+ rdwxx_:$$DRAINSHR##           0   F           3
+ rdwxx_:$$BCGFLOWI##          24   F           3
+ rdwxx_:$$INTPERMI##           0   F           3
+ rdwxx_:$$BCPRECII##          12   F           3
+ rdwxx_:$$BCPRECIR##          24   F           3
+ rdwxx_:$$WLGEOM_I##           4   F           3
+ rdwxx_:$$WLGEOM_R##         144   F           3
+ rdwxx_:$$WLTIME_I##          12   F           3
+ rdwxx_:$$SOILWL_I##          12   F           3
+ rdwxx_:$$UDWPRESR##           0   F           3
+ rdwxx_:$$WESMASSR##           0   F           3
+ rdwxx_:$$SLPRECOR##          24   F           3
+ skipping block in rdwxx_
+ rdwxx_:$$SLPRECAI##           0   F           3
+ skipping block in rdwxx_
+ rdwxx_:$$_APPINFT##         478   F           3
+ skipping block in rdwxx_
+ rdwxx_:$$ENDOFFII##           0   T           3
+ NelBm A=           0
+ 000sw : Read : $$PHASNAMT##           1          63           0
+ 000sw : Read : $$INTEGERI##           1          40           0
+ 000sw : Read : $$FSSOILSI##           2       30444           0
+ 000sw : Read : $$PROLAYSI##           2           4           0
+ 000sw : Read : $$PROLAYSR##           2        1600           0
+ 000sw : Read : $$FSEPILSI##           2           4           0
+ 000sw : Read : $$LXXFILEI##           2           4           0
+ 000sw : Read : $$SITGWNSI##           2           4           0
+ 000sw : Read : $$MULTIPNR##           2         208           0
+ 000sw : Read : $$SIG_XX0R##           2      243552           0
+ 000sw : Read : $$SIG_YY0R##           2      243552           0
+ 000sw : Read : $$SIG_ZZ0R##           2      243552           0
+ 000sw : Read : $$SIG1MAXR##           2      243552           1
+ 000sw : Read : $$E__C___R##           2      487104           1
+ 000sw : Read : $$PPTCOPCR##           2           8           1
+ 000sw : Read : $$WPINIT_R##           2      243552           1
+ 000sw : Read : $$WPNDIN_R##           2       98136           2
+ 000sw : Read : $$FSEWPRCI##           2       48872           2
+ 000sw : Read : $$FSEWPRSR##           2      293184           2
+ 000sw : Skip : $$SIG_WP0R##           2           0
+ 000sw : Skip : $$FSEPINTR##           2           0
+ 000sw : Read : $$DSATURAR##           2      243552           2
+ 000sw : Read : $$SATEFFER##           2      243552           2
+ 000sw : Read : $$IGNRSUCI##           2           4           2
+ 000sw : Read : $$CALCTIMR##           2          32           2
+ 000sw : Read : $$CALCTIMT##           2          78           2
+ 000sw : Read : $$_APPINFT##           2         715           2
+ After closing file (000sw)           2  ms
+ NelBm B=           0
+ i_stag :           1
+ PStag0:  0.000000000000000E+000
+ PStage:  0.000000000000000E+000
+ i_stag :           1
+ nLayer:           1
+ MaxSet:           1
+ n=       36810
+ n=       36810  ierr=           0
+ n=       36810  ierr=           0
+ NZero =        36810
+ iset, mmod :            1           2
+ MMod4 :            0
+ Creep :  F
+LRiks :      4
+ imaxmod           2
+ NelBm3  =            1
+ Using Mindlin beam elements
+ Put_Load_On_Struct
+ Put_Load_On_Struct done           0  ms
+ CalWt0           1
+ Smallest Jacobian:   336444.727085612       iel         1621           2
+ Largest  Jacobian:   225630170.727752       iel         5957           3
+ N before Fill_NDofEx :        36810
+ TIME 13:41:25   
+ Nel (Act) :         7611        7611
+ Int (Act) :            0           0
+ Bm  (Act) :            0           0
+ Bm3 (Act) :            1           0
+ NAct :        12264  of        12267
+ nAct:       12264  of       12267
+ dF  2.006212289415998E-004        3773       12030        5950
+ Please check F_NDofEx carefully !!
+ MaxFixedDof :            6
+ MaxFixedDof :            6
+NAct,NInAct :    11543     724
+ nodact(9848):           1
+ rmax :    1466.63535477500     
+ nax=           0
+ NMethod :            1  1.000000000000000E-002
+Numbering method        1
+Number of dof's =    36810
+ Tyings2 allocated           12
+ nmat :    391891888
+ PROF:NMat =    391891888   ->      3061656  kB
+Testing     391891888    391891888
+ NMethod :            2  1.000000000000000E-002
+ itype :            0
+ NMethod :            3  1.000000000000000E-002
+ NMethod :            4  1.000000000000000E-002
+Numbering method        4
+Number of dof's =    34635
+ Tyings2 allocated           12
+ nmat :    382866034
+ PROF:NMat =    382866034   ->      2991141  kB
+Testing     382866034    391891888
+Best so far             4    382866034      2991141  0.9928
+ NMethod :            5  1.000000000000000E-002
+Numbering method        5
+Number of dof's =    34635
+ Tyings2 allocated           12
+ nmat :    413847113
+ PROF:NMat =    413847113   ->      3233181  kB
+Testing     413847113    382866034
+ NMethod :            6  1.000000000000000E-002
+ itype :            0
+ NMethod :            7  1.000000000000000E-002
+ itype :            0
+ TIME 13:41:25   
+Numbering method        7
+Number of dof's =    34635
+ Tyings2 allocated           12
+ nmat :     73318637
+ PROF:NMat =     73318637   ->       572802  kB
+Testing      73318637    382866034
+Best so far             7     73318637       572802  0.1801
+ NMethod :            8  1.000000000000000E-002
+ itype :            0
+ TIME 13:41:25   
+Numbering method        8
+Number of dof's =    34635
+ Tyings2 allocated           12
+ nmat :     71621631
+ PROF:NMat =     71621631   ->       559544  kB
+Testing      71621631     73318637
+Best so far             8     71621631       559544  0.1754
+ NMethod :            9  2.000000000000000E-002
+ itype :            0
+ TIME 13:41:25   
+Numbering method        9
+Number of dof's =    34635
+ Tyings2 allocated           12
+ nmat :     72907381
+ PROF:NMat =     72907381   ->       569589  kB
+Testing      72907381     71621631
+ NMethod :           10  2.000000000000000E-002
+ itype :            0
+ TIME 13:41:25   
+Numbering method       10
+Number of dof's =    34635
+ Tyings2 allocated           12
+ nmat :     72696228
+ PROF:NMat =     72696228   ->       567940  kB
+Testing      72696228     71621631
+ NMethod :           11  2.000000000000000E-002
+ itype :            0
+ skipping nmethod :           11
+ NMethod :           12  2.000000000000000E-002
+Numbering method       12
+Number of dof's =    34635
+ Tyings2 allocated           12
+ nmat :    382866034
+ PROF:NMat =    382866034   ->      2991141  kB
+Testing     382866034     71621631
+ NMethod :            8  3.000000000000000E-002
+ itype :            0
+ TIME 13:41:25   
+Numbering method        8
+Number of dof's =    34635
+ Tyings2 allocated           12
+ nmat :     71621631
+ PROF:NMat =     71621631   ->       559544  kB
+Resulting numbering method        8
+ Overview:
+  100% =    3061656 kB
+Method  1 :     2990M 100.00%     2989.9M    14374   1.00000  2.831E+12 FLOPs  100.000%
+Method  4 :     2921M  97.70%     2921.0M    14498   0.99281
+Method  5 :     3157M 105.60%     3157.4M    15483   1.06661
+Method  7 :      559M  18.71%      559.4M     2488   0.18008  8.980E+10 FLOPs    3.172%
+Method  8 :      546M  18.28%      546.4M     2415   0.17538
+Method  9 :      556M  18.60%      556.2M     2463   0.17871
+Method 10 :      555M  18.55%      554.6M     2452   0.17806
+Method 12 :     2921M  97.70%     2921.0M    14498   0.99281
+  Matrix~       546 MB  avg band     2068
+Resulting FLOPs :   8.522E+10 for decomposition
+Resulting FLOPs :   1.432E+08 for backsubstitution
+ Tyings2 allocated           12
+ nOdd, nEven:           0           0
+ End Ty_Anch_To_Struct           0
+ nmat :     71621631
+ PROF:NMat =     71621631   ->       559544  kB
+ nOld :        34635
+ nNew :        31830   91.9012559549589       %
+ nMatOld :               71621630                559544  kB
+ nMatNew :               66629791                520546  kB
+   93.0302633436296       %
+Reduced   FLOPs :   7.960E+10 for decomposition
+Reduced   FLOPs :   1.333E+08 for backsubstitution
+Estimated speed :     1768.07 MFl/s
+Estimated decomposition time :       45.02 s =       0.75 min
+Number of dof's =    34635
+Number of active dof's =    31829
+ TIME 13:41:25   
+ Time for opt :   0.390000000000000       s
+ nRigid:           0
+ N after  Fill_NDofEx :        34635
+ ------------Iterative settings-----------------
+ DSCMax =   0.500000000000000     
+ MaxDown =            5
+ UsingLineSearch =  F
+ GradualError =  F
+ Riks_auto =  F
+ ------------Iterative settings end-------------
+ call ReadCrp
+ after ReadCrp
+ Nin_ =            1
+ nodtot F       12267
+  FilNm : C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.000
+ nel,nin:        7611       30444       30444
+ Opening file:
+ C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\data.000
+ XXX_Temp : $$PHASNAMT##          63
+ XXX_Temp : $$INTEGERI##          40
+ XXX_Temp : $$FSSOILSI##       30444
+ XXX_Temp : $$PROLAYSI##           4
+ XXX_Temp : $$PROLAYSR##        1600
+ XXX_Temp : $$FSEPILSI##           4
+ XXX_Temp : $$LXXFILEI##           4
+ XXX_Temp : $$SITGWNSI##           4
+ XXX_Temp : $$MULTIPNR##         208
+ XXX_Temp : $$SIG_XX0R##      243552
+ XXX_Temp : $$SIG_YY0R##      243552
+ XXX_Temp : $$SIG_ZZ0R##      243552
+ XXX_Temp : $$SIG1MAXR##      243552
+ XXX_Temp : $$E__C___R##      487104
+ XXX_Temp : $$PPTCOPCR##           8
+ XXX_Temp : $$WPINIT_R##      243552
+ XXX_Temp : $$WPNDIN_R##       98136
+ XXX_Temp : $$FSEWPRCI##       48872
+ nLoadW60, nLoadW80:         2036           0
+ XXX_Temp : $$FSEWPRSR##      293184
+ XXX_Temp : $$SIG_WP0R##           0
+ XXX_Temp : $$FSEPINTR##           0
+ XXX_Temp : $$DSATURAR##      243552
+ XXX_Temp : $$SATEFFER##      243552
+ XXX_Temp : $$IGNRSUCI##           4
+ XXX_Temp : $$CALCTIMR##          32
+ XXX_Temp : $$CALCTIMT##          78
+ XXX_Temp : $$_APPINFT##         715
+ iPrevCalc :            0
+ iPrevCalc :            0
+ iPrevCalc :            0
+ iPrevCalc :            0
+ 000 Read : $$PHASNAMT##           1          63           0
+ Previous phase:Initial phase
+ 000 Read : $$INTEGERI##           2          40           0
+ Skipping block $$INTEGERI##
+ 000 Read : $$FSSOILSI##           3       30444           0
+ 530  T
+ 000 Read : $$PROLAYSI##           4           4           0
+ 000 Read : $$PROLAYSR##           5        1600           0
+ 000 Read : $$FSEPILSI##           6           4           0
+ 000 Read : $$LXXFILEI##           7           4           0
+ Unknown block $$LXXFILEI##
+ Skipping block $$LXXFILEI##
+ 000 Read : $$SITGWNSI##           7           4           0
+ 000 Read : $$MULTIPNR##           8         208           0
+Pm0 T  G  TD SF :   0.00000E+00  1.00000E+00  0.00000E+00  1.00000E+00
+Pm0 SC :   0.00000E+00
+ 000 Read : $$SIG_XX0R##           9      243552           0
+ 000 Read : $$SIG_YY0R##          10      243552           0
+ 000 Read : $$SIG_ZZ0R##          11      243552           0
+ 000 Read : $$SIG1MAXR##          12      243552           0
+ 000 Read : $$E__C___R##          13      487104           1
+ Skipping block $$E__C___R##
+ 000 Read : $$PPTCOPCR##          14           8           1
+ Unknown block $$PPTCOPCR##
+ Skipping block $$PPTCOPCR##
+ 000 Read : $$WPINIT_R##          14      243552           1
+ 000 Read : $$WPNDIN_R##          15       98136           1
+ 000 Read : $$FSEWPRCI##          16       48872           2
+ 000 Read : $$FSEWPRSR##          17      293184           4
+ 000 Skip : $$SIG_WP0R##          18           0
+ 000 Skip : $$FSEPINTR##          19           0
+ Unknown block $$FSEPINTR##
+ 000 Read : $$DSATURAR##          19      243552           9
+ 000 Read : $$SATEFFER##          20      243552           9
+ Unknown block $$SATEFFER##
+ Skipping block $$SATEFFER##
+ 000 Read : $$IGNRSUCI##          20           4           9
+ 000 Read : $$CALCTIMR##          21          32           9
+ 000 Read : $$CALCTIMT##          22          78           9
+ Unknown block $$CALCTIMT##
+ Skipping block $$CALCTIMT##
+ 000 Read : $$_APPINFT##          22         715           9
+ Unknown block $$_APPINFT##
+ Skipping block $$_APPINFT##
+ leaving RdXXX           9  ms
+ back from RdXXX
+ Get_CalcType...
+ nHand:           7           7
+ nDof:           3
+ nHand,iUpd,iUnd,iFlo,iPhC:           7           0           0           0
+           0
+ iCalcType:           70           7
+ 
+ Pore pressures from wxx is used
+ 
+ Fill_Neigh           1
+ Fill_IH
+ MaxSame :           16  nUnique:       11828  of        30444 and            0
+ Nel     :        7611
+ Total time :           10
+ Total CPU  :   3.125000000000000E-002
+ Allocated  :       121776  0.464538574218750       Mb
+ Neigh           1          10  total        2036  outside tris
+ Chk_WLoad
+ nOutside triangles:        2036
+ nLoadW6        2036        2036
+        2036  valid WLoads
+ Chk_WLoad           1  ms
+ Remove_Double_WaterLoads2
+        2036  valid WLoads
+ Remove_Double_WaterLoads2           0  ms
+ Modify_Wp_for_Suction...
+ PPTCO:   0.000000000000000E+000
+ Probably 3DF problem
+Pm0 T  G  H  SF :   0.00000E+00  1.00000E+00  0.00000E+00  1.00000E+00
+Pm0 DA C1 C2 SC :   0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+Inc D  LA LB    :   0.00000E+00  0.00000E+00  0.00000E+00
+Inc T  G  H  SF :   0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+Ult D  LA LB    :   1.00000E+00  1.00000E+00  1.00000E+00
+Ult T  G  H  SF :   0.00000E+00  1.00000E+00  0.00000E+00  1.00000E+00
+Ult DA C1 C2 SC :   0.00000E+00  0.00000E+00  0.00000E+00  1.00000E+00
+ INFO1
+ AddCxx
+ bkhead:$$S000000H##         392
+ end cxx
+ PStag0 (after rdXXX):   0.000000000000000E+000
+ PArea0 (after rdXXX):    1.00000000000000     
+ dUTot0 from 000
+ INFO2
+ SumG  :   0.000000000000000E+000           0           0
+ PropInt na GenMat:
+ n_amat       31830
+IBG 0=      913320       7136
+nnz_amat    66629791     520546
+ Memory needed for BG and Amat                527682  kB
+ av. bandwitdh of profile matrix   2093.30163367892     
+ max material model: (2=Mohr-Coulomb)           2
+ GetFreeMem
+ Tot. Int.:     12454628  kB        12162  Mb
+ Internal :      4865164  kB         4751  Mb free
+ InSwap   :      5121604  kB         5001  Mb free
+ Total    :      9986768  kB         9752  Mb free
+ Use not more than approx.    11736896  kb of internal memory for calculations
+ iRotAct:           0           0           0
+ Solving linear systems with iterative solver
+ after init_pc
+ Init_Crp
+ nodtot G       12267
+ Tyings2 allocated           12
+ start Check_Close_Strucs
+ xMin Max :   -2500.00000000000        2500.00000000000     
+ yMin Max :   -2500.00000000000        2500.00000000000     
+ zMin Max :   -5000.00000000000       0.000000000000000E+000
+ Diag     :    8660.25403784439     
+ end Check_Close_Strucs           2           0
+ TyInterfaces_At_Structures
+           0       12267 struc nodes
+ xMin Max :   1.000000000000000E+020 -1.000000000000000E+020
+ yMin Max :   1.000000000000000E+020 -1.000000000000000E+020
+ zMin Max :   1.000000000000000E+020 -1.000000000000000E+020
+ Diag     :   3.464101615137755E+020           0
+ nStrucNods           0
+ Tyings2 allocated           12
+ nmat :     71621631
+ PROF:NMat =     71621631   ->       559544  kB
+ nOld :        34635
+ nNew :        31830   91.9012559549589       %
+ nMatOld :               71621630                559544  kB
+ nMatNew :               66629791                520546  kB
+   93.0302633436296       %
+ FillLMat           1 T
+ nLConI:          56
+ size for all LConX :       228384           893  kB
+ Number of relations :      2828526
+ Filling relations per dof
+ Safe  nD =      2828526
+ Time for FillLmat(1...   6.250000000000000E-002  s
+ FillLMat           2 T
+ nLConI:          56
+ size for all LConX :       228384           893  kB
+ Number of relations :      2828526
+ Filling relations per dof
+ Safe  nD =      2828526
+ Sorting relations per dof
+ Compressing relations per dof
+ Done, nD =      1181986  matrix :         9235  kB
+  dT for filling     :            2
+  dT for finding n   :            0
+  dT for counting    :           17
+  dT for filling     :           24
+  dT for sorting     :          127
+  dT for compression :            4
+  dT for total       :          174  ms
+ dt FillLMat :          155             1  times T
+ C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\3DCALC~1\PHASE_~1\UsePard F
+ Time for FillLmat(2...   0.312500000000000       s
+ Enough memory to allocate BG available
+ GetFreeMem
+ Tot. Int.:     12454628  kB        12162  Mb
+ Internal :      4850700  kB         4737  Mb free
+ InSwap   :      5102268  kB         4982  Mb free
+ Total    :      9952968  kB         9719  Mb free
+IBG 2=      913320       7135
+ ierr2=           0
+ GetFreeMem
+ Tot. Int.:     12454628  kB        12162  Mb
+ Internal :      4850648  kB         4736  Mb free
+ InSwap   :      5102248  kB         4982  Mb free
+ Total    :      9952896  kB         9719  Mb free
+ Allocate BG Now         7135
+ ierr3=           0
+ GetFreeMem
+ Tot. Int.:     12454628  kB        12162  Mb
+ Internal :      4842348  kB         4728  Mb free
+ InSwap   :      5095064  kB         4975  Mb free
+ Total    :      9937412  kB         9704  Mb free
+ Allocated   :        50577  kB
+ GetFreeMem
+ Tot. Int.:     12454628  kB        12162  Mb
+ Internal :      4842348  kB         4728  Mb free
+ InSwap   :      5095064  kB         4975  Mb free
+ Total    :      9937412  kB         9704  Mb free
+ Ladv0,lType,nDof:           1           1           3
+ Voor Step_From_Ult, dSF   :   0.000000000000000E+000
+ FScUlt:    1.00000000000000     
+ Fac   :   1.000000000000000E-003
+ dSc   :   1.000000000000000E-003
+ dScMax:   0.500000000000000     
+ Na Step_From_Ult, fTUlt :   0.000000000000000E+000
+ Na Step_From_Ult, dSF   :   0.000000000000000E+000
+ Na Step_From_Ult, dTime :   0.000000000000000E+000
+ Chain0   0.000000000000000E+000
+ dsf   0.000000000000000E+000
+ isffac:           0
+ ideform
+       2      0      1      1      1       0      0      0      1   1000
+       0     -1     60      6     15       5      0      0      3      0
+       0      0      1      1      1       0      0      0      1      0
+Step :  1 of 1000
+ GetFreeMem
+ Tot. Int.:     12454628  kB        12162  Mb
+ Internal :      4842148  kB         4728  Mb free
+ InSwap   :      5095064  kB         4975  Mb free
+ Total    :      9937212  kB         9704  Mb free
+ TIME 13:41:26   
+ call form a
+ Pos 413, fTUlt :   0.000000000000000E+000
+ Matrix         123
+ nBmNod  :            6
+ nBmNod3 :            3
+ scRatio:  1.000000000000000E+100
+ After Soil
+Beam matrices :       0.00 s
+ NelEPil max=           1
+Beam matrices :       0.00 s
+ call form b
+ TIME 13:41:26   
+form  amat       0.14 s
+SD,SDnz,HD  4.58797E+00  4.58797E+00  9.94870E+01
+ iSD,iSDnz,iHD       26557       26557         531
+ uMax :   1.000000000000000E+020
+ PduFree :    99000.0000000000     
+ NelBm in BoundC1 :            0
+ nNodBm in BoundC1 :            3
+ Boundc2iter, nNew:       31830
+ BoundC2iter A
+ BoundC2iter B
+ BoundC2iter C
+ nNewFree        31829
+ BoundC2iter D
+ Time for BoundC2iter   1.000000000000000E-002
+SD,HD  4.58797E+00  9.94870E+01
+ iSD,iHD       26557         531
+ lsize:           1
+ Mem: 2 12163 (4737) MB (free) physical memory
+ Process ID, MemMB : 13292 101
+ Process ID, MemMB : 13292 101
+ PASSMBMEM 101
+ Picos_Prep           1  ms
+ TIME 13:41:26   
+ Picos decomposition pos. definite case
+ Picos symmetric definite matrix
+ Picos using GMRES
+ Number of original DOF groups:            2
+ Number of merged   DOF groups:            2
+ nCPU:           4
+ nThreads used:            3
+ Picos initial droptol   2.000000000000000E-005
+ set_option
+ set_feedback
+ null_space
+ update_matrix
+ update_precon
+ plxtimerstop
+ check_error
+ TIME 13:41:27   
+(incomplete)decomposition amat      1.44 s
+ UpdWPres
+ UpdWPres End
+ FormGH
+ FormG
+ FormG end
+ Gxyz  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+ DaSum(Wtg) :    125000000000.000     
+ DaSum(Gamma) :   0.000000000000000E+000
+ nLoadW6:        2036
+ FormG
+ FormG end
+ Gxyz  0.000000000000000E+000  0.000000000000000E+000  -2499.99999999999     
+ DaSum(Wtg) :    125000000000.000     
+ DaSum(Gamma) :   6.088799999999955E-004
+3D Beam weights :       0.00 s
+ Sum 3D Beam weights: 
+  0.00000E+00  0.00000E+00  0.00000E+00
+ GNorm :    3418.75992148892     
+ nBmNod  :            6
+ nBmNod3 :            3
+GNorm :   3.41876E+03
+GNXYZ  :   0.00000E+00  0.00000E+00 -2.46404E+03
+ iDum from Header :          992
+ Threads in getsig / cluster:            3           1
+sumerr..  0.00000E+00  1.00000E+00  0.00000E+00
+dt GetSig :  1.000E-02   30444
+ITest,Fac =    1     0.5000
+ FScUlt:    1.00000000000000     
+ Fac   :   0.500000000000000     
+ dSc   :   0.500000000000000     
+ dScMax:   0.500000000000000     
+ SomeBm3Moment  0.000000000000000E+000
+ len cn :    8476.42219606981     
+ len sig0 :    3.04327034925749     
+ len sigwp0 :   0.000000000000000E+000
+ pSC, |SC|: -0.500000000000000       0.000000000000000E+000
+ xa,xb,xc,xd,xg,rl,xcn:  0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000   3454.72105705264     
+  9.418373164077936E-011   8476.42219606987     
+ x1,x2:  0.000000000000000E+000  0.000000000000000E+000
+ xa,xb,xc,xd,xg,rl,xcn:  0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000   3454.72105705264     
+  9.418373164077936E-011   8476.42219606987     
+ x1,x2:  0.000000000000000E+000  0.000000000000000E+000
+ fScUlt:   1.00000000000000     
+ PStag0:  0.000000000000000E+000
+ Dsc   :  0.500000000000000     
+ Fill SC here !!!!
+ xSC =   9.418373164077933E-011
+ScNorm:   6.45251E-11
+ 
+ Process ID, MemMB : 13292 208
+ PASSMBMEM 208
+ iPlxDebug(94):           0           0       31830
+ GMRES: iter =    0, error =  1.00000
+ GMRES: iter =   11, error =  0.00025
+ 
+ Picos Memory usage:
+   matrix .........               17216520
+   precon .........               80466864
+   solver .........               25376640
+   total [MB]......          117
+ 
+ Picos Preconditioner info:
+   max fill .......            1
+   droptol ........   8.4601E-05
+   quality ........   2.0000E+00
+   diag shift fact    2.0000E-06
+ 
+ Picos Solver info:
+   threads ........            3
+   iterations .....           11
+   tolerance ......   6.0000E-04
+   residual .......   2.4731E-04
+ 
+PrspGG or PCG_Solv:     0.17 s
+ RMinmax:   29409 -1.97620E-14   18641  1.73195E-14
+ UMinmax:   12717 -5.56458E-15   21466  6.51453E-16
+ Process ID, MemMB : 13292 212
+ PASSMBMEM 212
+ iDum from Header :          991
+ Threads in getsig / cluster:            3           1
+sumerr..  0.00000E+00  1.00000E+00  0.00000E+00
+dt GetSig :  1.000E-02   30444
+ SomeBm3Moment  0.000000000000000E+000
+ pSC: -0.500000000000000     
+ITest =      1
+EglT1,EglT2,EglT :   3.22626E-11  3.41876E+03  3.41876E+03
+RNorm,EglT,Egln1 :   4.84659E-12  3.41876E+03  1.41765E-15
+CSP for Error :        1.0000000
+PG   1=        1.0000000
+PSC   =        0.0000000       0.5000000  5.00000E-01
+EglN1 =   1.41765E-15  0.00000E+00  1.00000E+00  3.41876E+03
+ Small error first try
+ Norm GN :    50.7977465459862     
+ Norm SC :   9.107022264399381E-013
+ BackSub 3
+ iPlxDebug(94):           0           0       31830
+ GMRES: iter =    0, error =  1.00000
+ GMRES: iter =   10, error =  0.00071
+ 
+ Picos Memory usage:
+   matrix .........               17216520
+   precon .........               80466864
+   solver .........               25376640
+   total [MB]......          117
+ 
+ Picos Preconditioner info:
+   max fill .......            1
+   droptol ........   8.4601E-05
+   quality ........   2.0000E+00
+   diag shift fact    2.0000E-06
+ 
+ Picos Solver info:
+   threads ........            3
+   iterations .....           10
+   tolerance ......   1.0000E-03
+   residual .......   7.1486E-04
+ 
+PrspGG or PCG_Solv:     0.15 s
+ RMinmax:   29409 -1.97620E-14   18641  1.73195E-14
+ UMinmax:   12717 -5.56292E-15   21466  6.51664E-16
+ DUDU :   2.063980622921457E-025
+ RLRL :   2.073446363106651E-025
+ RLDU :   2.342833879221479E-026
+ RSign =    1.00000000000000     
+ SomeBm3Moment  0.000000000000000E+000
+ChkUlt    1    0   2.00000E+00
+ ufac  :    2.00000000000000     
+ scfac :    1.00000000000000     
+ dUTot0 from DuTot A           0           0
+ Process ID, MemMB : 13292 213
+ PASSMBMEM 213
+ breakiter:  F
+Iter :        1       1
+ node rload:
+RLoadXYZV :   1.38148E-11  1.38820E-11  1.93929E-11  0.00000E+00
+ iPlxDebug(94):           0           0       31830
+ GMRES: iter =    0, error =  1.00000
+ GMRES: iter =   10, error =  0.00072
+ 
+ Picos Memory usage:
+   matrix .........               17216520
+   precon .........               80466864
+   solver .........               25376640
+   total [MB]......          117
+ 
+ Picos Preconditioner info:
+   max fill .......            1
+   droptol ........   8.4601E-05
+   quality ........   2.0000E+00
+   diag shift fact    2.0000E-06
+ 
+ Picos Solver info:
+   threads ........            3
+   iterations .....           10
+   tolerance ......   1.0000E-03
+   residual .......   7.1528E-04
+ 
+PrspGG or PCG_Solv:     0.14 s
+ RMinmax:   29409 -1.97620E-14   18641  1.73195E-14
+ UMinmax:   12717 -5.56476E-15   21466  6.51858E-16
+du            9   1.90629E-16 -8.49481E-17 -4.82339E-15
+du         4077   1.70509E-16 -2.21781E-17 -4.36001E-15
+du            1   0.00000E+00  0.00000E+00  0.00000E+00
+du            1   0.00000E+00  0.00000E+00  0.00000E+00
+ dUTot0 from dU B
+ relaxT =    1.00000000000000     
+ iDum from Header :          992
+ Threads in getsig / cluster:            3           1
+sumerr..  0.00000E+00  1.25000E+06  0.00000E+00
+dt GetSig :  1.000E-02   30444
+ SomeBm3Moment  0.000000000000000E+000
+ |SA|  0.000000000000000E+000
+dUMdU,dUKdU soil  2.34273E-26  2.34337E-26
+dUMdU,dUKdU,CSP:  2.34273E-26  2.34337E-26  1.00000E+00
+ Rnorm, Eglt, EGLN1 =   4.84422E-12  3.41876E+03  1.41695E-15
+St,It =      1     1
+PSC   =        0.0000000       0.5000000  5.00000E-01
+F,Fold=   1.00000E+00  1.00000E+00  1.00000E+00
+ rescale_iteration...
+ Scaled_Up:  F
+ breakiter:  F
+Iter :        2       2
+ node rload:
+RLoadXYZV :   1.72376E-12  1.69707E-12  3.43623E-12  0.00000E+00
+ iPlxDebug(94):           0           0       31830
+ GMRES: iter =    0, error =  1.00000
+ GMRES: iter =    9, error =  0.00057
+ 
+ Picos Memory usage:
+   matrix .........               17216520
+   precon .........               80466864
+   solver .........               25376640
+   total [MB]......          117
+ 
+ Picos Preconditioner info:
+   max fill .......            1
+   droptol ........   8.4601E-05
+   quality ........   2.0000E+00
+   diag shift fact    2.0000E-06
+ 
+ Picos Solver info:
+   threads ........            3
+   iterations .....            9
+   tolerance ......   1.0000E-03
+   residual .......   5.7144E-04
+ 
+PrspGG or PCG_Solv:     0.14 s
+ RMinmax:   24660 -2.88658E-15   32934  3.88578E-15
+ UMinmax:   21969 -1.57160E-16    6063  2.67131E-16
+du            9   2.45664E-17 -1.00841E-17  6.72955E-17
+du         4077  -6.87152E-18  4.48399E-17  5.85616E-17
+du            1   0.00000E+00  0.00000E+00  0.00000E+00
+du            1   0.00000E+00  0.00000E+00  0.00000E+00
+ 
+dutotE        9   1.91631E-16 -8.68557E-17 -4.81928E-15
+dutotE     4077   1.69319E-16 -2.20653E-17 -4.35744E-15
+dutotE        1   0.00000E+00  0.00000E+00  0.00000E+00
+du            9   2.45664E-17 -1.00841E-17  6.72955E-17
+du         4077  -6.87152E-18  4.48399E-17  5.85616E-17
+du            1   0.00000E+00  0.00000E+00  0.00000E+00
+NDOFM,VALMAX :      0   1.00000E-20
+ NDofM not found !
+ relaxT =    1.00000000000000     
+ iDum from Header :          992
+ Threads in getsig / cluster:            3           1
+sumerr..  0.00000E+00  1.25000E+06  0.00000E+00
+dt GetSig :  1.000E-02   30444
+ SomeBm3Moment  0.000000000000000E+000
+ |SA|  0.000000000000000E+000
+dUMdU,dUKdU soil  2.31258E-26  2.31200E-26
+dUMdU,dUKdU,CSP:  2.31258E-26  2.31200E-26  1.00000E+00
+ Rnorm, Eglt, EGLN1 =   4.53262E-12  3.41876E+03  1.32581E-15
+St,It =      1     2
+PSC   =        0.0000000       0.5000000  5.00000E-01
+F,Fold=   1.00000E+00  1.00000E+00  1.00000E+00
+ rescale_iteration...
+ Scaled_Up:  F
+ SumGT :   0.000000000000000E+000           1           2
+  0.000000000000000E+000
+ChkUlt    1    0   2.00000E+00
+Scale Up  A      1     2     2
+ prevent scale up
+ChkUlt    1    0   2.00000E+00
+dUMdU,dUKdU soil  2.31258E-26  2.31200E-26
+dUMdU,dUKdU,CSP:  2.31258E-26  2.31200E-26  1.00000E+00
+Uxyz at IStep,Iter :     1     2     1
+     9      0.000     0.000     0.000    2.1520E-16 -9.5032E-17 -4.7561E-15
+  4077     65.036    89.743 -2595.109    1.6364E-16  2.2662E-17 -4.3014E-15
+     1   2500.000 -2500.000 -5000.000    0.0000E+00  0.0000E+00  0.0000E+00
+     1   2500.000 -2500.000 -5000.000    0.0000E+00  0.0000E+00  0.0000E+00
+     1   2500.000 -2500.000 -5000.000    0.0000E+00  0.0000E+00  0.0000E+00
+forceXYZ:       0.0000000       0.0000000       0.0000000
+ Writing data ...
+CSP :   1.00000E+00
+PAreaT,PAreaN,PArea :   1.25000E+11  1.25000E+11  1.00000E+00
+ Realised_ClusterVolChange
+ Tot, Av Gb: 118.611 48.349
+ Estimated kb:         3631
+ Nel,Nin:        7611       30444
+ wrrots           0
+ Tot, Av Gb: 118.611 48.349
+ Used kB:         5080  kB      140598  kB/s          36
+ AddCxx
+ bkhead:$$S000001H##         392
+ end cxx
+ Write_Step: DoneLead, ULTLEV   : F F
+ Write_Step: nStepDef, nStepFlow:           1          -1
+ iRes:            1
+ WrtLog:  T
+ Active           4   1.00000000000000     
+ IMult =            4
+ Call: Step_Ready
+ After Step_Ready
+Time for this step [s]      2.38 s
+ChkUlt    2    0   1.00000E+00
+Step :  2 of 1000
+ SomeBm3Moment  0.000000000000000E+000
+Parm,dParm,PUlt,UFac: SC   5.00000E-01  5.00000E-01  1.00000E+00  1.00000E+00  1
+ChkUlt    1    1   1.00000E+00
+ ufac  :    1.00000000000000     
+ scfac :    1.00000000000000     
+ dUTot0 from DuTot A           0           0
+ breakiter:  F
+Iter :        1       1
+ node rload:
+RLoadXYZV :   1.38926E-11  1.39831E-11  1.97081E-11  0.00000E+00
+ relaxT =    1.00000000000000     
+ iDum from Header :          992
+ Threads in getsig / cluster:            3           1
+sumerr..  0.00000E+00  1.25000E+06  0.00000E+00
+dt GetSig :  2.000E-02   30444
+ SomeBm3Moment  0.000000000000000E+000
+ |SA|  0.000000000000000E+000
+dUMdU,dUKdU soil  2.31258E-26  2.31200E-26
+dUMdU,dUKdU,CSP:  2.31258E-26  2.31200E-26  1.00000E+00
+ Rnorm, Eglt, EGLN1 =   9.06701E-12  3.41876E+03  2.65213E-15
+St,It =      2     1
+PSC   =        0.5000000       1.0000000  5.00000E-01
+F,Fold=   1.00000E+00  1.00000E+00  1.00000E+00
+ rescale_iteration...
+ Scaled_Up:  F
+ breakiter:  F
+Iter :        2       2
+ node rload:
+RLoadXYZV :   3.25324E-12  3.20113E-12  6.40916E-12  0.00000E+00
+ iPlxDebug(94):           0           0       31830
+ GMRES: iter =    0, error =  1.00000
+ GMRES: iter =    8, error =  0.00059
+ 
+ Picos Memory usage:
+   matrix .........               17216520
+   precon .........               80466864
+   solver .........               25376640
+   total [MB]......          117
+ 
+ Picos Preconditioner info:
+   max fill .......            1
+   droptol ........   8.4601E-05
+   quality ........   2.0000E+00
+   diag shift fact    2.0000E-06
+ 
+ Picos Solver info:
+   threads ........            3
+   iterations .....            8
+   tolerance ......   1.0000E-03
+   residual .......   5.8553E-04
+ 
+PrspGG or PCG_Solv:     0.13 s
+ RMinmax:   22329 -5.77316E-15   26766  5.60663E-15
+ UMinmax:   14172 -3.42665E-16   22275  3.70763E-16
+du            9  -2.47600E-18 -1.41177E-17 -5.00881E-17
+du         4077  -4.16218E-17 -1.00745E-16 -8.55361E-17
+du            1   0.00000E+00  0.00000E+00  0.00000E+00
+du            1   0.00000E+00  0.00000E+00  0.00000E+00
+ 
+dutotE        9   1.91631E-16 -8.68557E-17 -4.81928E-15
+dutotE     4077   1.69319E-16 -2.20653E-17 -4.35744E-15
+dutotE        1   0.00000E+00  0.00000E+00  0.00000E+00
+du            9  -2.47600E-18 -1.41177E-17 -5.00881E-17
+du         4077  -4.16218E-17 -1.00745E-16 -8.55361E-17
+du            1   0.00000E+00  0.00000E+00  0.00000E+00
+NDOFM,VALMAX :      0   1.00000E-20
+ NDofM not found !
+ relaxT =    1.00000000000000     
+ iDum from Header :          992
+ Threads in getsig / cluster:            3           1
+sumerr..  0.00000E+00  1.25000E+06  0.00000E+00
+dt GetSig :  1.000E-02   30444
+ SomeBm3Moment  0.000000000000000E+000
+ |SA|  0.000000000000000E+000
+dUMdU,dUKdU soil  2.35608E-26  2.35656E-26
+dUMdU,dUKdU,CSP:  2.35608E-26  2.35656E-26  1.00000E+00
+ Rnorm, Eglt, EGLN1 =   4.84561E-12  3.41876E+03  1.41736E-15
+St,It =      2     2
+PSC   =        0.5000000       1.0000000  5.00000E-01
+F,Fold=   1.00000E+00  1.00000E+00  1.00000E+00
+ rescale_iteration...
+ Scaled_Up:  F
+ SumGT :   0.000000000000000E+000           2           2
+  0.000000000000000E+000
+Parm,dParm,PUlt,UFac: SC   5.00000E-01  5.00000E-01  1.00000E+00  1.00000E+00  1
+ChkUlt    1    1   1.00000E+00
+Parm,dParm,PUlt,UFac: SC   5.00000E-01  5.00000E-01  1.00000E+00  1.00000E+00  1
+ChkUlt    1    1   1.00000E+00
+dUMdU,dUKdU soil  2.35608E-26  2.35656E-26
+dUMdU,dUKdU,CSP:  2.35608E-26  2.35656E-26  1.00000E+00
+Uxyz at IStep,Iter :     2     2     2
+     9      0.000     0.000     0.000    4.2791E-16 -2.0418E-16 -9.5623E-15
+  4077     65.036    89.743 -2595.109    2.8565E-16 -5.5422E-17 -8.6884E-15
+     1   2500.000 -2500.000 -5000.000    0.0000E+00  0.0000E+00  0.0000E+00
+     1   2500.000 -2500.000 -5000.000    0.0000E+00  0.0000E+00  0.0000E+00
+     1   2500.000 -2500.000 -5000.000    0.0000E+00  0.0000E+00  0.0000E+00
+forceXYZ:       0.0000000       0.0000000       0.0000000
+ Writing data ...
+CSP :   1.00000E+00
+PAreaT,PAreaN,PArea :   1.25000E+11  1.25000E+11  1.00000E+00
+ Tot, Av Gb: 118.611 48.349
+ Nel,Nin:        7611       30444
+ wrrots           0
+ Tot, Av Gb: 118.611 48.349
+ Used kB:         5080  kB      148633  kB/s          34
+ AddCxx
+ bkhead:$$S000002H##         392
+ end cxx
+ Write_Step: DoneLead, ULTLEV   : F F
+ Write_Step: nStepDef, nStepFlow:           2          -1
+ iRes:            1
+ WrtLog:  T
+ Call: Step_Ready
+ After Step_Ready
+Time for this step [s]      0.26 s
+Parm,dParm,PUlt,UFac: SC   1.00000E+00  5.00000E-01  1.00000E+00  0.00000E+00  1
+ChkUlt    2    1   0.00000E+00
+ Final node rload:
+RLoadXYZV :   1.70170E-12  1.72829E-12  3.37538E-12  0.00000E+00
+RLoadMXYZ :   0.00000E+00  0.00000E+00  0.00000E+00
+ Final node pbound*rload:
+pb*RLoadXYZV :   1.70170E-12  1.72829E-12  3.37538E-12  0.00000E+00
+pb*RLoadMXYZ :   0.00000E+00  0.00000E+00  0.00000E+00
+ Itt             4
+ Nel          7611
+ Nodes       12267
+ NNew        31830
+ NMat    71621631.0000000             2250  /dof
+ in Mb   546.429679870605     
+ in Gb  0.533622734248638     
+ nnzA      1181986          13  Mb          37  nnz/dof
+ nnzL      6515800          74  Mb         205  nnz/dof
+ Allocated   :        50577  kB
+ Used memory :            0  kB
+ Lerr        :            0
+Total time       4.98 s      0 hr  0 min  4.98 s
+Total CPU        9.28 s      0 hr  0 min  9.28 s
+ DATE 2023-02-25 TIME 13:41:28.867
+ p_DLL_CE 3:        140717722370048       140717722374416
+ FFUninitialize
+ Total cpu  :    9.79687500010000     
+ Total wall :    5.16800000000000     
+ 
+ +------+--------+-------------+--------+-------------+--------+----------+
+ | Task |  Count |       CPU   |    %   |  Wall clock |    %   | Name     |
+ +------+--------+-------------+--------+-------------+--------+----------+
+ |    0 |      1 |        9.80 | 100.00 |        5.17 | 100.00 | Total    |
+ +------+--------+-------------+--------+-------------+--------+----------+
+ |    5 |      6 |        0.25 |   2.55 |        0.06 |   1.08 | GetSig   |
+ |    6 |     10 |        0.08 |   0.80 |        0.04 |   0.74 | BT_Sig   |
+ |    7 |      2 |        0.22 |   2.23 |        0.07 |   1.35 | wtbxx    |
+ |    8 |     11 |        0.00 |   0.00 |        0.02 |   0.31 | Profil3D |
+ |    9 |      2 |        0.38 |   3.83 |        0.20 |   3.77 | FillLMat |
+ |   10 |      7 |        0.03 |   0.32 |        0.03 |   0.58 | Reading  |
+ |   21 |      2 |        0.05 |   0.48 |        0.02 |   0.37 | Neigh    |
+ |   52 |      1 |        3.84 |  39.23 |        1.37 |  26.49 | PicosDec |
+ |   53 |      5 |        2.47 |  25.20 |        0.72 |  13.91 | PicosBck |
+ |   54 |      1 |        0.00 |   0.00 |        0.00 |   0.02 | Pic_Prep |
+ |   55 |      1 |        0.06 |   0.64 |        0.07 |   1.35 | PicosNwA |
+ +------+--------+-------------+--------+-------------+--------+----------+
+ |  100 |      1 |        2.42 |  24.72 |        2.58 |  50.02 | Rest     |
+ +------+--------+-------------+--------+-------------+--------+----------+
+ Mem: 4 12163 (4643) MB (free) physical memory
+ Process ID, MemMB : 13292 211

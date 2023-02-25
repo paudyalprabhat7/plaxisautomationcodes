@@ -1,0 +1,409 @@
+[General]
+Version=0
+CalcMode=Classic
+CalcType=DynamicAnalysis Drained
+ErrorCode=0
+ErrorMsg=OK
+DateTime=25-02-2023 12:12
+StepsCount=100
+ErrorParams=
+[Step001]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step002]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step003]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step004]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step005]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step006]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step007]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step008]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step009]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step010]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step011]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step012]
+DateTime=25-02-2023 12:09
+LeadNumber=-1
+LeadFinished=False
+[Step013]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step014]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step015]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step016]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step017]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step018]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step019]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step020]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step021]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step022]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step023]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step024]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step025]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step026]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step027]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step028]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step029]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step030]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step031]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step032]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step033]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step034]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step035]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step036]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step037]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step038]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step039]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step040]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step041]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step042]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step043]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step044]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step045]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step046]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step047]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step048]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step049]
+DateTime=25-02-2023 12:10
+LeadNumber=-1
+LeadFinished=False
+[Step050]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step051]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step052]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step053]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step054]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step055]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step056]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step057]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step058]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step059]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step060]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step061]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step062]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step063]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step064]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step065]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step066]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step067]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step068]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step069]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step070]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step071]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step072]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step073]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step074]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step075]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step076]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step077]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step078]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step079]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step080]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step081]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step082]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step083]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step084]
+DateTime=25-02-2023 12:11
+LeadNumber=-1
+LeadFinished=False
+[Step085]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step086]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step087]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step088]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step089]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step090]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step091]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step092]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step093]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step094]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step095]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step096]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step097]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step098]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step099]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False
+[Step100]
+DateTime=25-02-2023 12:12
+LeadNumber=-1
+LeadFinished=False

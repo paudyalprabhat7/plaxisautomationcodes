@@ -1,0 +1,37 @@
+[Actions]
+Set global coarseness to 433.013
+[AddGeometry]
+Name="Point_1_1"
+Name="Line_1_1"
+Name="BoreholeVolume_1_1"
+Name="Point_2_1"
+Name="Point_3_1"
+[Actions]
+Set global coarseness for "Point_1_1" to 216.506
+Set global coarseness for "Line_1_1" to 54.127
+[AddFeature]
+ConstructingFeature(Name="Point_1_1", Geometry="Point_1_1", Shape="fesPoint", PolynomialOrder=0, Family="fefUndefined"
+EmbeddedEntity(Name="Line_1_1", Geometry="Line_1_1", Shape="fesLine", PolynomialOrder=2, Family="fefUndefined"
+ConstructingFeature(Name="BoreholeVolume_1_1", Geometry="BoreholeVolume_1_1", Shape="fesTetrahedron", PolynomialOrder=2, Family="fefUndefined"
+=====================================================
+==================== Geometries =====================
+=====================================================
+Name="Point_1_1"
+Name="Line_1_1"
+Name="BoreholeVolume_1_1"
+Name="Point_2_1"
+Name="Point_3_1"
+
+
+=====================================================
+===================== Features ======================
+=====================================================
+ConstructingFeature(Name="Point_1_1", Geometry="Point_1_1", Shape="fesPoint", PolynomialOrder=0, Family="fefUndefined"
+EmbeddedEntity(Name="Line_1_1", Geometry="Line_1_1", Shape="fesLine", PolynomialOrder=2, Family="fefUndefined"
+ConstructingFeature(Name="BoreholeVolume_1_1", Geometry="BoreholeVolume_1_1", Shape="fesTetrahedron", PolynomialOrder=2, Family="fefUndefined"
+
+
+=====================================================
+[Actions]
+Creating mesh to output file "C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\data.IMProOutput"
+Mesh result written to output file "C:\Users\SWN\AppData\Local\Temp\PLAXIS~1\data.IMProOutput"

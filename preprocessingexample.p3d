@@ -1,9 +1,9 @@
 ﻿##~ running Plaxis3DInput.exe 21.1.0.479
 setproperties "UnitLength" "mm"
-initializerectangular SoilContour -150 -150 150 150
+initializerectangular SoilContour -2500.0 -2500.0 2500.0 2500.0
 borehole 0 0
-soillayer 300
-set Borehole_1.Head -300.0
+soillayer 5000.0
+set Borehole_1.Head -5000.0
 soilmat ("MaterialName" "Sand") ("SoilModel" 2) ("Gref" 0.0192307692307692) ("cref" 5e-06) ("phi" 28.0) ("gammaUnsat" 2e-08) ("gammaSat" 2e-08) ("nu" 0.3) ("InterfaceStrength" 1) ("Rinter" 0.667) ("RayleighAlpha" 3.11) ("RayleighBeta" 0.00079577)
 gotostructures
 point 0.0 0.0 0.0
@@ -30,7 +30,6 @@ gotostages
 phase InitialPhase
 phase Phase_1
 phase Phase_2
-activate EmbeddedBeam_1_1 Phase_1
 set Phase_2.DeformCalcType "Dynamic"
 set Phase_2.Deform.TimeIntervalSeconds 0.5
 set Phase_2.Deform.ResetDisplacementsToZero True
@@ -51,3 +50,4 @@ deactivate PointDisplacement_1_1 Phase_3
 set Dynamics.BoundaryXMin Phase_3 "None"
 set Dynamics.BoundaryYMin Phase_3 "None"
 set Dynamics.BoundaryZMin Phase_3 "Viscous"
+calculate

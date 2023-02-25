@@ -1,0 +1,53 @@
+﻿##~ running Plaxis3DInput.exe 21.1.0.479
+setproperties "UnitLength" "mm"
+initializerectangular SoilContour -2500.0 -2500.0 2500.0 2500.0
+borehole 0 0
+soillayer 5000.0
+set Borehole_1.Head -5000.0
+soilmat ("MaterialName" "Sand") ("SoilModel" 2) ("Gref" 0.0192307692307692) ("cref" 5e-06) ("phi" 28.0) ("gammaUnsat" 2e-08) ("gammaSat" 2e-08) ("nu" 0.3) ("InterfaceStrength" 1) ("Rinter" 0.667) ("RayleighAlpha" 3.11) ("RayleighBeta" 0.00079577)
+gotostructures
+point 0.0 0.0 0.0
+pointdispl Point_1
+set Point_1.PointDisplacement.Displacement_x "fixed"
+set Point_1.PointDisplacement.Displacement_y "fixed"
+set Point_1.PointDisplacement.Displacement_z "Prescribed"
+set Point_1.PointDisplacement.uz -1.0
+displmultiplier
+set Point_1.PointDisplacement.PointDisplacement.Multiplierz DisplacementMultiplier_1
+embeddedbeam 0.0 0.0 -150.0 0.0 0.0 -190.0
+embeddedbeammat ("MaterialName" "Geophone") ("Elasticity" 0) ("BeamType" 0) ("PredefinedBeamType" 0) ("SkinResistance" 0) ("Diameter" 30) ("E" 200) ("w" 7.65e-08) ("Size" 30) ("Tstart" 0.1) ("Tend" 0.1) ("A" 706.858347057703) ("Iyy" 39760.7820219958) ("Izz" 39760.7820219958) ("Iyz" 0) ("Fmax" 100)
+gotomesh
+set Line_1_1.CoarsenessFactor 0.125
+mesh "Coarseness" 0.05 "UseEnhancedRefinements" True "EMRGlobalScale" 1.2 "EMRMinElementSize" 0.005 "UseSweptMeshing" False
+viewmesh
+selectmeshpoints
+gotostructures
+setmaterial Soillayer_1.Soil Sand
+setmaterial Line_1.EmbeddedBeam Geophone
+set DisplacementMultiplier_1.Amplitude 25
+set DisplacementMultiplier_1.Frequency 10
+gotostages
+phase InitialPhase
+phase Phase_1
+phase Phase_2
+set Phase_2.DeformCalcType "Dynamic"
+set Phase_2.Deform.TimeIntervalSeconds 0.5
+set Phase_2.Deform.ResetDisplacementsToZero True
+set Phase_2.Deform.UseDefaultIterationParams False
+set Phase_2.Deform.ToleratedError 0.05
+set Phase_2.Deform.TimeStepDetermType "Manual"
+activate PointDisplacement_1_1 Phase_2
+activate DynPointDisplacement_1_1 Phase_2
+set Dynamics.BoundaryXMin Phase_2 "None"
+set Dynamics.BoundaryYMin Phase_2 "None"
+set Dynamics.BoundaryZMin Phase_2 "Viscous"
+set Phase_3.DeformCalcType "Dynamic"
+set Phase_3.Deform.TimeIntervalSeconds 0.5
+set Phase_3.Deform.UseDefaultIterationParams False
+set Phase_3.Deform.ToleratedError 0.05
+set Phase_3.Deform.TimeStepDetermType "Manual"
+deactivate PointDisplacement_1_1 Phase_3
+set Dynamics.BoundaryXMin Phase_3 "None"
+set Dynamics.BoundaryYMin Phase_3 "None"
+set Dynamics.BoundaryZMin Phase_3 "Viscous"
+calculate

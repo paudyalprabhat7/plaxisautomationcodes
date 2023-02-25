@@ -22,9 +22,9 @@ PreviewFile=
 CalcType=7
 LoadInput=201
 PorePressureType=0
-CalcStatus=1
-StartStep=-1
-EndStep=-1
+CalcStatus=2
+StartStep=0
+EndStep=0
 LogInfo=
 
 [Phase1]
@@ -35,9 +35,9 @@ PreviewFile=
 CalcType=301
 LoadInput=201
 PorePressureType=0
-CalcStatus=1
-StartStep=-1
-EndStep=-1
+CalcStatus=2
+StartStep=1
+EndStep=2
 LogInfo=
 
 [Phase2]
@@ -48,9 +48,9 @@ PreviewFile=
 CalcType=4
 LoadInput=201
 PorePressureType=3
-CalcStatus=1
-StartStep=-1
-EndStep=-1
+CalcStatus=2
+StartStep=3
+EndStep=102
 LogInfo=
 
 [Phase3]
@@ -61,8 +61,8 @@ PreviewFile=
 CalcType=4
 LoadInput=201
 PorePressureType=3
-CalcStatus=1
-StartStep=-1
-EndStep=-1
+CalcStatus=2
+StartStep=103
+EndStep=202
 LogInfo=
 

@@ -1,0 +1,17 @@
+[General]
+Version=0
+CalcMode=Classic
+CalcType=Plastic Drained
+ErrorCode=0
+ErrorMsg=OK
+DateTime=25-02-2023 13:41
+StepsCount=2
+ErrorParams=
+[Step001]
+DateTime=25-02-2023 13:41
+LeadNumber=-1
+LeadFinished=False
+[Step002]
+DateTime=25-02-2023 13:41
+LeadNumber=-1
+LeadFinished=False

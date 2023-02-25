@@ -1,0 +1,13 @@
+[General]
+Version=0
+CalcMode=Classic
+CalcType=K0
+ErrorCode=0
+ErrorMsg=OK
+DateTime=25-02-2023 12:06
+StepsCount=1
+ErrorParams=
+[Step001]
+DateTime=25-02-2023 12:06
+LeadNumber=-1
+LeadFinished=False

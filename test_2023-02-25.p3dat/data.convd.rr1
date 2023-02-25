@@ -1,0 +1,101 @@
+ DATE 2023-02-25 TIME 13:41:25.564
+ Reference project:
+   *
+ Executable directory:
+   C:\Program Files\Bentley\Geotechnical\PLAXIS 3D CONNECT Edition V21\kernel\
+ Executable date:
+   Mar 09 2021 17:51:37
+
+ ========================================================
+ ========================================================
+ PHASE 1: "Phase_1"
+
+   11543 active of    12267 nodes
+    7611 active of     7611 soil elements
+       0 active of        1 pile elements
+   31830 active of    34635 dofs
+ ========================================================
+ ========================================================
+
+ CALCULATION TYPE                                 Plastic
+ CONVERGENCE CRITERIA
+   Global force error tolerance                 1.000E-02
+   Integrated soil local error tolerance        1.000E-02
+   Global moment error tolerance                1.000E-02
+   Inaccurate soil plastic point tolerance      1.000E-01
+   Embedded beam interface error tolerance      1.000E-02
+   Inaccurate beam plastic point tolerance      1.000E-01
+ 
+ STEP SIZE CONTROL PARAMETERS
+   Maximum iterations per step                         60
+   Desired minimum iterations per step                  6
+   Desired maximum iterations per step                 15
+   Maximum consecutive negative steps                   5
+   Arc-length control                                  On
+
+ ========================================================
+ STEP 1
+ ========================================================
+
+ STEP 1 - ATTEMPT 1 - ITERATION 1
+ Current step size                              5.000E-01
+ Total number of iterations in current step             1
+ Global force error                             1.417E-15
+ Check convergence
+   Minimum of 2 iterations per attempt not reached
+   Converged attempt:                                  NO
+
+ STEP 1 - ATTEMPT 1 - ITERATION 2
+ Current step size                              5.000E-01
+ Total number of iterations in current step             2
+ Global force error                             1.326E-15
+ Check convergence
+   Converged attempt:                                 YES
+
+ STEP 1 - SUMMARY
+ Reached sum-MStage                             5.000E-01
+ Step convergence achieved                            YES
+ Relative stiffness                             1.000E+00
+ Maximum out-of-balance force                   3.331E-15
+   At node     8384, dof 3
+   Location ( 1.303E+02, 1.840E+02,-4.461E+03)
+ Maximum incremental displacement              -5.636E-15
+   At node       43, dof 3
+   Location ( 2.500E+03,-2.500E+03,-1.250E+03)
+
+ ========================================================
+ STEP 2
+ ========================================================
+
+ STEP 2 - ATTEMPT 1 - ITERATION 1
+ Current step size                              5.000E-01
+ Total number of iterations in current step             1
+ Global force error                             2.652E-15
+ Check convergence
+   Minimum of 2 iterations per attempt not reached
+   Converged attempt:                                  NO
+
+ STEP 2 - ATTEMPT 1 - ITERATION 2
+ Current step size                              5.000E-01
+ Total number of iterations in current step             2
+ Global force error                             1.417E-15
+ Check convergence
+   Converged attempt:                                 YES
+
+ STEP 2 - SUMMARY
+ Reached sum-MStage                             1.000E+00
+ Step convergence achieved                            YES
+ Relative stiffness                             1.000E+00
+ Maximum out-of-balance force                   3.997E-15
+   At node     6541, dof 3
+   Location ( 1.903E+03,-1.585E+03,-4.443E+03)
+ Maximum incremental displacement              -5.545E-15
+   At node     1722, dof 3
+   Location ( 2.500E+03,-2.318E+03,-1.355E+03)
+
+ ========================================================
+ ========================================================
+ PHASE SUMMARY
+ ========================================================
+ ========================================================
+ Prescribed ultimate state reached
